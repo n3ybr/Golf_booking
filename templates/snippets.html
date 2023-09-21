@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Бронирование</title>
+  <link rel="stylesheet" href="/static/css/jquery-ui.min.css">
+  <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+  <link rel="stylesheet" href="/static/css/style.css">
+  <style type="text/css">
+
+  input {
+    display: inline-block;
+    padding: 5px;
+  }
+  </style>
+</head>
+<body>
+  <div class="center">
+    <div class="container">
+      <div class="formWrapper">
+        <form action=" " id="myForm">
+          <div class="row">
+            <div class="col-sm-6">
+              <p>Выберите дату</p>
+              <input type="text" class="form-control" id="datepicker" placeholder="" style="width: 50%;">
+            </div>
+            <div class="col-sm-6">
+              <p>Выберите время</p>
+              <div class="row-times" id="picktime">
+
+            </div>
+          </div>
+          <p class ="form-header">Укажите ваши контактные данные</p>
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="form-group">
+                <label for="name">ФИО</label>
+                <input type="text" class="form-control" name="prime_name" id="prime_name" placeholder="Иванов Иван  ">
+                <div class="alert alert-success" id="discountMessage" style="display: none;">
+                  Скидка как члену клуба!
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="form-group">
+                <label for="phone">Телефон</label>
+                <input type="text" class="form-control" name="prime_phone" id="prime_phone" placeholder="Телефон">
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" name="prime_email" id="prime_email" placeholder="name@example.com">
+              </div>
+            </div>
+            <div class="radio">
+              <div class="row">
+                <div class="col-sm-6">
+                    <div class="igroki">Укажите количество гостей</div>
+                </div>
+                <div class="col-sm-6-radio">
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="radioGroup" id="radio1" value="1">
+                    <label class="form-check-label" for="inlineRadio1">1</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input  class="form-check-input" type="radio" name="radioGroup" id="radio2" value="2">
+                    <label class="form-check-label" for="inlineRadio2">2</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="radioGroup" id="radio3" value="3">
+                    <label class="form-check-label" for="inlineRadio3">3</label>
+                  </div>
+                </div>
+              </div>                   
+            </div>         
+            <div class="row" id="placetoadd" style="width: 83%;">
+            </div>
+            <p class="dop-header">Дополнительное оборудование</p>
+            <div class="dop-check">
+              <div class="form-check-c">
+                <input id="oborudcheck1" class="form-check-input-pull-right" type="number" min="0" max="4" value="0" name="quantity" step="1" oninput="checkQuantity(this)">
+                <label class="form-check-label-pull-right" for="oborudcheck1">
+                  Аренда гольф-кара
+                </label>
+              </div>
+              <div class="form-check-c">
+                <input id="oborudcheck2" class="form-check-input-pull-right" type="number" min="0" max="4" value="0" name="quantity" step="1" oninput="checkQuantity(this)">
+                <label class="form-check-label-pull-right" for="oborudcheck2">
+                  Аренда эл. тележки
+                </label>
+              </div>
+              <div class="form-check-c">
+                <input id="oborudcheck3" class="form-check-input-pull-right" type="number" min="0" max="4" value="0" name="quantity" step="1" oninput="checkQuantity(this)">
+                <label class="form-check-label-pull-right" for="oborudcheck3">
+                  Аренда бэга
+                </label>
+              </div>
+              <div class="form-check-c">
+                <input id="oborudcheck4" class="form-check-input-pull-right" type="number" min="0" max="4" value="0" name="quantity" step="1" oninput="checkQuantity(this)">
+                <label class="form-check-label-pull-right" for="oborudcheck4">
+                  Аренда тележки
+                </label>
+              </div>
+            </div>
+            <div class="comm">
+              <div class="mb-3">
+                <label for="comment" class="form-label">Комментарий к бронированию</label>
+                <textarea class="form-control" id="comment" rows="3"></textarea>
+              </div>
+            </div> 
+            <div class="row-itog">
+            <div class="col-sm-6">
+                <div class="itog" id="itog">
+                  <b>Ти-тайм</b>                
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="timeitog" style="padding-left:5px;">
+                  <b id="timeitog"></b>
+                </div>
+              </div>
+            </div>
+          <div class="but-post">
+            <button id ="button_post"class="post">
+              Забронировать
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="https://snipp.ru/cdn/jquery/2.1.1/jquery.min.js"></script>
+  <script src="/static/js/jquery-ui.min.js"></script>
+  <script src="/static/js/bootstrap.bundle.min.js"></script>
+  <script src="/static/js/main.js"></script>
+  <script src="/static/js/jquery.validate.js"></script>
+  <script>
+    function checkQuantity(input) {
+      if (input.value < 0) {
+        input.value = 0;
+      } else if (input.value > 4) {
+        input.value = 4;
+      }
+    }
+    </script>
+</body>
+</html>
+
+
+
+

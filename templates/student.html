@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ student.id }}</title>
+    <link rel="stylesheet" href="/static/css/awesomplete.css">
+    <link rel="stylesheet" href="/static/css/jquery-ui.min.css">
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link rel="stylesheet" href="/static/css/admin.css">
+    <link rel="stylesheet" href="/static/css/pure.css">
+    <link rel="stylesheet" href="/static/css/card.css">
+    <link rel="stylesheet" href="/static/css/modal.css">
+    <link rel="stylesheet" href="/static/css/1.12jquery-ui.css">
+
+</head>
+<body>
+    <div class="header">
+        <div style="padding-block: 13px;display: flex;align-items: center;">
+            <input  class="input_Data_h" type="text" id="guestInput" placeholder="Введите фамилию гостя">
+            <img class="dobavit" src="/static/css/images/plus.png" style="width: 55px;right: 10%;position: absolute;cursor: pointer;"><b class="user_name" id="userr_name" style="color: yellow;margin-left: 8%;right: 3%;position: absolute;top: 2%;">{{ user }}</b>         
+            <!-- Кнопка для открытия модального окна -->
+            <button id="openUserBtn">Создать нового пользователя</button>
+            
+            <!-- Модальное окно -->
+            <div id="userModal" class="modal">
+                <div class="modal-content">
+                    <span class="close" id="closeUserBtn">&times;</span>
+                    <h2>Создание нового пользователя</h2>
+                        <form action="/protected/user_add" method="post" id="userForm">
+                            <label for="username">Имя пользователя:</label>
+                            <input type="text" id="username" name="username" required>
+                            <br><br>
+                            
+                            <label for="password">Пароль:</label>
+                            <input type="text" id="password" name="password" required>
+                            <button type="button" onclick="togglePasswordVisibility()">Показать пароль</button>
+                            <br><br>
+                            
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                            <br><br>
+                            
+                            <label for="role">Роль:</label>
+                            <select id="role" name="role" required>
+                                <option value="admin">Администратор</option>
+                                <option value="user">Пользователь</option>
+                            </select>
+                            <br><br>
+                            
+                            <input type="submit" value="Создать пользователя">
+                        </form>
+                </div>
+            </div>
+            <button id="openDateBtn">Отключить даты</button>
+
+            <div id="dateModal" class="modal">
+                <div class="modal-content">
+                    <span class="close" id="closeDateBtn">&times;</span>
+                    <h3 class="title" style="width: 100%;">Выберите даты для отключения</h3>   
+                    <div class="container1" style="background: #ced4da;">
+                      <div class="disabl">
+                        <p>Выберите дату</p>
+                        <input style="width: 100%;" type="text" class="form-control" id="datePick" placeholder="" style="width: 30%;">
+                        <button id="send_disable">Отключить даты</button>
+                      </div>
+                    </div>
+                </div>
+              </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6-left">
+            <div class="info-side">
+                <div class="booking-name">
+                    <a href="/protected">
+                      &#8592; <!-- Символ стрелки влево -->
+                    </a>
+                    {{ student.p_name }} {% if student.is_member == true %}- член клуба{% endif %}
+                </div>
+                  
+                  
+                <div class="booking-id" id="book-id">
+                    #{{ student.id }}
+                </div>
+                <div class="time-date">
+                    {{ student.time }} {{ student.date }}
+                </div>
+                <div class="status">
+                    <label for="status">Статус бронирования:</label>
+                    <select id="status" name="status">
+                        <option value="approve" {% if student.status == 'approve' %}selected{% endif %}>Подтверждено</option>
+                        <option value="new" {% if student.status == 'new' %}selected{% endif %}>Новое</option>
+                        <option value="cancel" {% if student.status == 'cancel' %}selected{% endif %}>Отменено</option>
+                    </select>
+                </div>
+                
+                <div class="contacts">
+                    <div class="head-contacts">
+                        Контакты
+                    </div>
+                    <div class="phone">
+                        Телефон {{ student.p_phone }}
+                    </div>
+                    <div class="e-mail">
+                        E-mail {{ student.p_email }}
+                    </div>
+                </div>
+                <div class="dop-oborudovanie">
+                    <div class="head-contacts">
+                        Дополнительное оборудование
+                    </div>
+                    <div class="equipment-item">
+                        <span class="item-text">Гольф-кар</span>
+                        {% if student.car_c %}
+                            {{ student.car_c }}
+                        {% else %}
+                            <span class="item-icon">&#x2718;</span> <!-- Крестик -->
+                        {% endif %}
+                    </div>
+                    <div class="equipment-item">
+                        <span class="item-text">Эл. тележка</span>
+                        {% if student.eltel_c %}
+                            {{ student.eltel_c }}
+                        {% else %}
+                            <span class="item-icon">&#x2718;</span> <!-- Крестик -->
+                        {% endif %}
+                    </div>
+                    <div class="equipment-item">
+                        <span class="item-text">Тележка</span>
+                        {% if student.tel_c %}
+                            {{ student.tel_c }}
+                        {% else %}
+                            <span class="item-icon">&#x2718;</span> <!-- Крестик -->
+                        {% endif %}
+                    </div>
+                    <div class="equipment-item">
+                        <span class="item-text">Гольф-бэг</span>
+                        {% if student.bag_c %}
+                            {{ student.bag_c }}
+                        {% else %}
+                            <span class="item-icon">&#x2718;</span> <!-- Крестик -->
+                        {% endif %}
+                    </div>
+                </div>
+                
+                <div class="guests-card">
+                    <div class="head-contacts">
+                        Гости
+                    </div>
+                    <div class="guest1-card">
+                        {% if student.guest1 != None %}
+                            {{ student.guest1 }}
+                        {% endif %}
+                    </div>
+                    <div class="guest2-card">
+                        {% if student.guest2 != None %}
+                            {{ student.guest2 }}
+                        {% endif %}
+                    </div>
+                    <div class="guest3-card">
+                        {% if student.guest3 != None %}
+                            {{ student.guest3 }}
+                        {% endif %}
+                    </div>
+                </div>
+                <div class="summa-booking">
+                    <div class="summ">Сумма {{ student.price }} &#8381;</div>
+                </div>
+                <div class="button-save">
+                    <button id="save" type="button">Сохранить</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6-right">
+            <div class="info-area" id="comments-container">
+
+            </div>
+            <div class="textarea-comm">
+                <div class="textarea-wrapper">
+                    <textarea id="myTextarea" rows="4" cols="50"></textarea>
+                    <button class="send_comm" id="addcomm" type="button">&#10148;</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/static/js/awesomplete.min.js"></script>
+    <script src="/static/js/2.1.1/jquery-2.1.1.min.js"></script>
+    <script src="/static/js/jquery-ui.min.js"></script>
+    <script src="/static/js/bootstrap.bundle.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script src="/static/js/1.12.1_jquery-ui.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/dubrox/Multiple-Dates-Picker-for-jQuery-UI@master/jquery-ui.multidatespicker.js"></script>
+    <script src="/static/js/card.js"></script>
+    <script src="/static/js/modal.js"></script>
+    <script src="/static/js/disable.js"></script>
+    <script>
+        function togglePasswordVisibility() {
+            var passwordField = document.getElementById("password");
+            if (passwordField.type === "password") {
+                passwordField.type = "text";
+            } else {
+                passwordField.type = "password";
+            }
+        }
+    </script>
+    <script>
+        // Получите значение student.id из Jinja2 и передайте его как bookId в JavaScript
+        const bookId = '{{ student.id }}'; // Оберните значение в кавычки
+        
+        fetch(`/api/comments?book_id=${bookId}`)
+            .then(response => response.json())
+            .then(data => {
+                const commentsContainer = document.getElementById("comments-container");
+    
+                data.forEach(comment => {
+                    var commentDiv = document.createElement("div");
+                    commentDiv.className = "comment-3";
+                    var originalString = comment.text;
+                    var formattedString = originalString.replace(/['(),]/g, '');
+
+                    commentDiv.innerHTML = comment.datetime + ' - <span style="color: blue;">' + comment.user_id + ': </span>' + formattedString;
+    
+                    commentsContainer.appendChild(commentDiv);
+                });
+            })
+            .catch(error => console.error('Ошибка загрузки комментариев:', error));
+    </script>
+    
+
+
+</body>
+</html>

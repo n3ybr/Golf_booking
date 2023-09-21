@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <link rel="stylesheet" href="/static/css/awesomplete.css">
+    <link rel="stylesheet" href="/static/css/jquery-ui.min.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link rel="stylesheet" href="/static/css/admin.css">
+    <link rel="stylesheet" href="/static/css/pure.css">
+    <link rel="stylesheet" href="/static/css/modal.css">
+    <link rel="stylesheet" href="/static/css/1.12jquery-ui.css">
+</head>
+<body>
+    <div class="header">
+        <div style="padding-block: 13px;display: flex;align-items: center;">
+            <input  class="input_Data_h" type="text" id="guestInput" placeholder="Введите фамилию гостя">
+            <img class="dobavit" src="/static/css/images/plus.png" style="width: 55px;right: 10%;position: absolute;cursor: pointer;"><b class="user_name" id="userr_name" style="color: yellow;margin-left: 8%;right: 3%;position: absolute;top: 2%;">{{ user }}</b>         
+            <!-- Кнопка для открытия модального окна -->
+            <button id="openUserBtn">Создать нового пользователя</button>
+            
+            <!-- Модальное окно -->
+            <div id="userModal" class="modal">
+                <div class="modal-content">
+                    <span class="close" id="closeUserBtn">&times;</span>
+                    <h2>Создание нового пользователя</h2>
+                        <form action="/protected/user_add" method="post" id="userForm">
+                            <label for="username">Имя пользователя:</label>
+                            <input type="text" id="username" name="username" required>
+                            <br><br>
+                            
+                            <label for="password">Пароль:</label>
+                            <input type="text" id="password" name="password" required>
+                            <button type="button" onclick="togglePasswordVisibility()">Показать пароль</button>
+                            <br><br>
+                            
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                            <br><br>
+                            
+                            <label for="role">Роль:</label>
+                            <select id="role" name="role" required>
+                                <option value="admin">Администратор</option>
+                                <option value="user">Пользователь</option>
+                            </select>
+                            <br><br>
+                            
+                            <input type="submit" value="Создать пользователя">
+                        </form>
+                </div>
+            </div>
+            <button id="openDateBtn">Отключить даты</button>
+
+            <div id="dateModal" class="modal">
+                <div class="modal-content">
+                    <span class="close" id="closeDateBtn">&times;</span>
+                    <h3 class="title" style="width: 100%;">Выберите даты для отключения</h3>   
+                    <div class="container1" style="background: #ced4da;">
+                      <div class="disabl">
+                        <p>Выберите дату</p>
+                        <input style="width: 100%;" type="text" class="form-control" id="datePicker" placeholder="" style="width: 30%;">
+                        <button id="send_disable">Отключить даты</button>
+                      </div>
+                    </div>
+                </div>
+              </div>
+        </div>
+    </div>
+    <div class="page_name"><b class="name_bronir" style="text-decoration: underline;margin-left: 2%;font-size: larger;">Бронирования</b><b class="vid" style="margin-left: 72%;">Вид: на неделю</b></div>
+    <div class="admin-dp" style="margin-block: 20px;margin-inline: 25px;"><input class="a-dp" type="date"></div>
+    <div class="content">
+        <div class="sticky-element" style="margin-left: 40px;">
+            <div class="oval_d"><div id="left" style="position: absolute;display: flex;"><i class="arrow left" style="flex: 0 0 auto;"></i></div><div id="day1" class="date_">Пн   , 1</div></div>
+            <div class="oval_d"><div id = "day2" class="date_"> </div></div>
+            <div class="oval_d"><div id = "day3" class="date_"> </div></div>
+            <div class="oval_d"><div id = "day4" class="date_"> </div></div>
+            <div class="oval_d"><div id = "day5" class="date_"> </div></div>
+            <div class="oval_d"><div id = "day6" class="date_"> </div></div>
+            <div class="oval_d"><div id = "day7" class="date_"> </div><div class="navarr" id="right"><i class="arrow right"></i></div></div>
+        </div>
+        <div class="row">
+            <div class="time_t">9:00</div>
+            <div class="oval"><div class="day1"> </div></div>
+            <div class="oval"><div class="day2"> </div></div>
+            <div class="oval"><div class="day3"> </div></div>
+            <div class="oval"><div class="day4"> </div></div>
+            <div class="oval"><div class="day5"> </div></div>
+            <div class="oval"><div class="day6"> </div></div>
+            <div class="oval"><div class="day7"> </div></div>
+        </div>
+        <div class="row">
+            <div class="time_t">9:15</div>
+            <div class="oval"><div class="day1"> </div></div>
+            <div class="oval"><div class="day2"> </div></div>
+            <div class="oval"><div class="day3"> </div></div>
+            <div class="oval"><div class="day4"> </div></div>
+            <div class="oval"><div class="day5"> </div></div>
+            <div class="oval"><div class="day6"> </div></div>
+            <div class="oval"><div class="day7"> </div></div>
+        </div>
+        <div class="row">
+            <div class="time_t">9:30</div>
+            <div class="oval"><div class="day1"> </div></div>
+            <div class="oval"><div class="day2"> </div></div>
+            <div class="oval"><div class="day3"> </div></div>
+            <div class="oval"><div class="day4"> </div></div>
+            <div class="oval"><div class="day5"> </div></div>
+            <div class="oval"><div class="day6"> </div></div>
+            <div class="oval"><div class="day7"> </div></div>
+        </div>
+        <div class="row">
+            <div class="time_t">9:45</div>
+            <div class="oval"><div class="day1"> </div></div>
+            <div class="oval"><div class="day2"> </div></div>
+            <div class="oval"><div class="day3"> </div></div>
+            <div class="oval"><div class="day4"> </div></div>
+            <div class="oval"><div class="day5"> </div></div>
+            <div class="oval"><div class="day6"> </div></div>
+            <div class="oval"><div class="day7"> </div></div>
+        </div>
+        <div class="row">
+            <div class="time_t">10:00</div>
+            <div class="oval"><div class="day1"> </div></div>
+            <div class="oval"><div class="day2"> </div></div>
+            <div class="oval"><div class="day3"> </div></div>
+            <div class="oval"><div class="day4"> </div></div>
+            <div class="oval"><div class="day5"> </div></div>
+            <div class="oval"><div class="day6"> </div></div>
+            <div class="oval"><div class="day7"> </div></div>
+        </div>
+        <div class="row">
+            <div class="time_t">10:15</div>
+            <div class="oval"><div class="day1"> </div></div>
+            <div class="oval"><div class="day2"> </div></div>
+            <div class="oval"><div class="day3"> </div></div>
+            <div class="oval"><div class="day4"> </div></div>
+            <div class="oval"><div class="day5"> </div></div>
+            <div class="oval"><div class="day6"> </div></div>
+            <div class="oval"><div class="day7"> </div></div>
+        </div>
+        <div class="row">
+            <div class="time_t">10:30</div>
+            <div class="oval"><div class="day1"> </div></div>
+            <div class="oval"><div class="day2"> </div></div>
+            <div class="oval"><div class="day3"> </div></div>
+            <div class="oval"><div class="day4"> </div></div>
+            <div class="oval"><div class="day5"> </div></div>
+            <div class="oval"><div class="day6"> </div></div>
+            <div class="oval"><div class="day7"> </div></div>
+        </div>
+        <div class="row">
+            <div class="time_t">10:45</div>
+            <div class="oval"><div class="day1"> </div></div>
+            <div class="oval"><div class="day2"> </div></div>
+            <div class="oval"><div class="day3"> </div></div>
+            <div class="oval"><div class="day4"> </div></div>
+            <div class="oval"><div class="day5"> </div></div>
+            <div class="oval"><div class="day6"> </div></div>
+            <div class="oval"><div class="day7"> </div></div>
+        </div>
+        <div class="row">
+            <div class="time_t">11:00</div>
+            <div class="oval"><div class="day1"> </div></div>
+            <div class="oval"><div class="day2"> </div></div>
+            <div class="oval"><div class="day3"> </div></div>
+            <div class="oval"><div class="day4"> </div></div>
+            <div class="oval"><div class="day5"> </div></div>
+            <div class="oval"><div class="day6"> </div></div>
+            <div class="oval"><div class="day7"> </div></div>
+        </div>
+        <div class="row">
+            <div class="time_t">11:15</div>
+            <div class="oval"><div class="day1"> </div></div>
+            <div class="oval"><div class="day2"> </div></div>
+            <div class="oval"><div class="day3"> </div></div>
+            <div class="oval"><div class="day4"> </div></div>
+            <div class="oval"><div class="day5"> </div></div>
+            <div class="oval"><div class="day6"> </div></div>
+            <div class="oval"><div class="day7"> </div></div>
+        </div>
+        <div class="row">
+            <div class="time_t">11:30</div>
+            <div class="oval"><div class="day1"> </div></div>
+            <div class="oval"><div class="day2"> </div></div>
+            <div class="oval"><div class="day3"> </div></div>
+            <div class="oval"><div class="day4"> </div></div>
+            <div class="oval"><div class="day5"> </div></div>
+            <div class="oval"><div class="day6"> </div></div>
+            <div class="oval"><div class="day7"> </div></div>
+        </div>
+        <div class="row">
+            <div class="time_t">11:45</div>
+            <div class="oval"><div class="day1"> </div></div>
+            <div class="oval"><div class="day2"> </div></div>
+            <div class="oval"><div class="day3"> </div></div>
+            <div class="oval"><div class="day4"> </div></div>
+            <div class="oval"><div class="day5"> </div></div>
+            <div class="oval"><div class="day6"> </div></div>
+            <div class="oval"><div class="day7"> </div></div>
+        </div>
+        <div class="row">
+            <div class="time_t">12:00</div>
+            <div class="oval"><div class="day1"> </div></div>
+            <div class="oval"><div class="day2"> </div></div>
+            <div class="oval"><div class="day3"> </div></div>
+            <div class="oval"><div class="day4"> </div></div>
+            <div class="oval"><div class="day5"> </div></div>
+            <div class="oval"><div class="day6"> </div></div>
+            <div class="oval"><div class="day7"> </div></div>
+        </div>
+        <div class="row">
+            <div class="time_t">12:15</div>
+            <div class="oval"><div class="day1"> </div></div>
+            <div class="oval"><div class="day2"> </div></div>
+            <div class="oval"><div class="day3"> </div></div>
+            <div class="oval"><div class="day4"> </div></div>
+            <div class="oval"><div class="day5"> </div></div>
+            <div class="oval"><div class="day6"> </div></div>
+            <div class="oval"><div class="day7"> </div></div>
+        </div>
+        <div class="row">
+            <div class="time_t">12:30</div>
+            <div class="oval"><div class="day1"> </div></div>
+            <div class="oval"><div class="day2"> </div></div>
+            <div class="oval"><div class="day3"> </div></div>
+            <div class="oval"><div class="day4"> </div></div>
+            <div class="oval"><div class="day5"> </div></div>
+            <div class="oval"><div class="day6"> </div></div>
+            <div class="oval"><div class="day7"> </div></div>
+        </div>
+        <div class="row">
+            <div class="time_t">12:45</div>
+            <div class="oval"><div class="day1"> </div></div>
+            <div class="oval"><div class="day2"> </div></div>
+            <div class="oval"><div class="day3"> </div></div>
+            <div class="oval"><div class="day4"> </div></div>
+            <div class="oval"><div class="day5"> </div></div>
+            <div class="oval"><div class="day6"> </div></div>
+            <div class="oval"><div class="day7"> </div></div>
+        </div>
+        <div class="row">
+            <div class="time_t">13:00</div>
+            <div class="oval"><div class="day1"> </div></div>
+            <div class="oval"><div class="day2"> </div></div>
+            <div class="oval"><div class="day3"> </div></div>
+            <div class="oval"><div class="day4"> </div></div>
+            <div class="oval"><div class="day5"> </div></div>
+            <div class="oval"><div class="day6"> </div></div>
+            <div class="oval"><div class="day7"> </div></div>
+        </div>
+        <div class="row">
+            <div class="time_t">13:15</div>
+            <div class="oval"><div class="day1"> </div></div>
+            <div class="oval"><div class="day2"> </div></div>
+            <div class="oval"><div class="day3"> </div></div>
+            <div class="oval"><div class="day4"> </div></div>
+            <div class="oval"><div class="day5"> </div></div>
+            <div class="oval"><div class="day6"> </div></div>
+            <div class="oval"><div class="day7"> </div></div>
+        </div>
+        <div class="row">
+            <div class="time_t">13:30</div>
+            <div class="oval"><div class="day1"> </div></div>
+            <div class="oval"><div class="day2"> </div></div>
+            <div class="oval"><div class="day3"> </div></div>
+            <div class="oval"><div class="day4"> </div></div>
+            <div class="oval"><div class="day5"> </div></div>
+            <div class="oval"><div class="day6"> </div></div>
+            <div class="oval"><div class="day7"> </div></div>
+        </div>
+        <div class="row">
+            <div class="time_t">13:45</div>
+            <div class="oval"><div class="day1"> </div></div>
+            <div class="oval"><div class="day2"> </div></div>
+            <div class="oval"><div class="day3"> </div></div>
+            <div class="oval"><div class="day4"> </div></div>
+            <div class="oval"><div class="day5"> </div></div>
+            <div class="oval"><div class="day6"> </div></div>
+            <div class="oval"><div class="day7"> </div></div>
+        </div>
+        <div class="row">
+            <div class="time_t">14:00</div>
+            <div class="oval"><div class="day1"> </div></div>
+            <div class="oval"><div class="day2"> </div></div>
+            <div class="oval"><div class="day3"> </div></div>
+            <div class="oval"><div class="day4"> </div></div>
+            <div class="oval"><div class="day5"> </div></div>
+            <div class="oval"><div class="day6"> </div></div>
+            <div class="oval"><div class="day7"> </div></div>
+        </div>
+
+        <div class="row">
+            <div class="time_t">14:15</div>
+            <div class="oval"><div class="day1"> </div></div>
+            <div class="oval"><div class="day2"> </div></div>
+            <div class="oval"><div class="day3"> </div></div>
+            <div class="oval"><div class="day4"> </div></div>
+            <div class="oval"><div class="day5"> </div></div>
+            <div class="oval"><div class="day6"> </div></div>
+            <div class="oval"><div class="day7"> </div></div>
+        </div>
+        <div class="row">
+            <div class="time_t">14:30</div>
+            <div class="oval"><div class="day1"> </div></div>
+            <div class="oval"><div class="day2"> </div></div>
+            <div class="oval"><div class="day3"> </div></div>
+            <div class="oval"><div class="day4"> </div></div>
+            <div class="oval"><div class="day5"> </div></div>
+            <div class="oval"><div class="day6"> </div></div>
+            <div class="oval"><div class="day7"> </div></div>
+        </div>
+        <div class="row">
+            <div class="time_t">14:45</div>
+            <div class="oval"><div class="day1"> </div></div>
+            <div class="oval"><div class="day2"> </div></div>
+            <div class="oval"><div class="day3"> </div></div>
+            <div class="oval"><div class="day4"> </div></div>
+            <div class="oval"><div class="day5"> </div></div>
+            <div class="oval"><div class="day6"> </div></div>
+            <div class="oval"><div class="day7"> </div></div>
+        </div>
+        <div class="row">
+            <div class="time_t">15:00</div>
+            <div class="oval"><div class="day1"> </div></div>
+            <div class="oval"><div class="day2"> </div></div>
+            <div class="oval"><div class="day3"> </div></div>
+            <div class="oval"><div class="day4"> </div></div>
+            <div class="oval"><div class="day5"> </div></div>
+            <div class="oval"><div class="day6"> </div></div>
+            <div class="oval"><div class="day7"> </div></div>
+        </div>
+        <div class="row">
+            <div class="time_t">15:15</div>
+            <div class="oval"><div class="day1"> </div></div>
+            <div class="oval"><div class="day2"> </div></div>
+            <div class="oval"><div class="day3"> </div></div>
+            <div class="oval"><div class="day4"> </div></div>
+            <div class="oval"><div class="day5"> </div></div>
+            <div class="oval"><div class="day6"> </div></div>
+            <div class="oval"><div class="day7"> </div></div>
+        </div>
+        <div class="row">
+            <div class="time_t">15:30</div>
+            <div class="oval"><div class="day1"> </div></div>
+            <div class="oval"><div class="day2"> </div></div>
+            <div class="oval"><div class="day3"> </div></div>
+            <div class="oval"><div class="day4"> </div></div>
+            <div class="oval"><div class="day5"> </div></div>
+            <div class="oval"><div class="day6"> </div></div>
+            <div class="oval"><div class="day7"> </div></div>
+        </div>
+        <div class="row">
+            <div class="time_t">15:45</div>
+            <div class="oval"><div class="day1"> </div></div>
+            <div class="oval"><div class="day2"> </div></div>
+            <div class="oval"><div class="day3"> </div></div>
+            <div class="oval"><div class="day4"> </div></div>
+            <div class="oval"><div class="day5"> </div></div>
+            <div class="oval"><div class="day6"> </div></div>
+            <div class="oval"><div class="day7"> </div></div>
+        </div>
+        <div class="row">
+            <div class="time_t">16:00</div>
+            <div class="oval"><div class="day1"> </div></div>
+            <div class="oval"><div class="day2"> </div></div>
+            <div class="oval"><div class="day3"> </div></div>
+            <div class="oval"><div class="day4"> </div></div>
+            <div class="oval"><div class="day5"> </div></div>
+            <div class="oval"><div class="day6"> </div></div>
+            <div class="oval"><div class="day7"> </div></div>
+        </div>
+        <div class="row">
+            <div class="time_t">16:15</div>
+            <div class="oval"><div class="day1"> </div></div>
+            <div class="oval"><div class="day2"> </div></div>
+            <div class="oval"><div class="day3"> </div></div>
+            <div class="oval"><div class="day4"> </div></div>
+            <div class="oval"><div class="day5"> </div></div>
+            <div class="oval"><div class="day6"> </div></div>
+            <div class="oval"><div class="day7"> </div></div>
+        </div>
+        <div class="row">
+            <div class="time_t">16:30</div>
+            <div class="oval"><div class="day1"> </div></div>
+            <div class="oval"><div class="day2"> </div></div>
+            <div class="oval"><div class="day3"> </div></div>
+            <div class="oval"><div class="day4"> </div></div>
+            <div class="oval"><div class="day5"> </div></div>
+            <div class="oval"><div class="day6"> </div></div>
+            <div class="oval"><div class="day7"> </div></div>
+        </div>
+        <div class="row">
+            <div class="time_t">16:45</div>
+            <div class="oval"><div class="day1"> </div></div>
+            <div class="oval"><div class="day2"> </div></div>
+            <div class="oval"><div class="day3"> </div></div>
+            <div class="oval"><div class="day4"> </div></div>
+            <div class="oval"><div class="day5"> </div></div>
+            <div class="oval"><div class="day6"> </div></div>
+            <div class="oval"><div class="day7"> </div></div>
+        </div>
+        <div class="row">
+            <div class="time_t">17:00</div>
+            <div class="oval"><div class="day1"> </div></div>
+            <div class="oval"><div class="day2"> </div></div>
+            <div class="oval"><div class="day3"> </div></div>
+            <div class="oval"><div class="day4"> </div></div>
+            <div class="oval"><div class="day5"> </div></div>
+            <div class="oval"><div class="day6"> </div></div>
+            <div class="oval"><div class="day7"> </div></div>
+        </div>
+        <div class="row">
+            <div class="time_t">17:15</div>
+            <div class="oval"><div class="day1"> </div></div>
+            <div class="oval"><div class="day2"> </div></div>
+            <div class="oval"><div class="day3"> </div></div>
+            <div class="oval"><div class="day4"> </div></div>
+            <div class="oval"><div class="day5"> </div></div>
+            <div class="oval"><div class="day6"> </div></div>
+            <div class="oval"><div class="day7"> </div></div>
+        </div>
+        <div class="row">
+            <div class="time_t">17:30</div>
+            <div class="oval"><div class="day1"> </div></div>
+            <div class="oval"><div class="day2"> </div></div>
+            <div class="oval"><div class="day3"> </div></div>
+            <div class="oval"><div class="day4"> </div></div>
+            <div class="oval"><div class="day5"> </div></div>
+            <div class="oval"><div class="day6"> </div></div>
+            <div class="oval"><div class="day7"> </div></div>
+        </div>
+        <div class="row">
+            <div class="time_t">17:45</div>
+            <div class="oval"><div class="day1"> </div></div>
+            <div class="oval"><div class="day2"> </div></div>
+            <div class="oval"><div class="day3"> </div></div>
+            <div class="oval"><div class="day4"> </div></div>
+            <div class="oval"><div class="day5"> </div></div>
+            <div class="oval"><div class="day6"> </div></div>
+            <div class="oval"><div class="day7"> </div></div>
+        </div>
+        <div class="row">
+            <div class="time_t">18:00</div>
+            <div class="oval"><div class="day1"> </div></div>
+            <div class="oval"><div class="day2"> </div></div>
+            <div class="oval"><div class="day3"> </div></div>
+            <div class="oval"><div class="day4"> </div></div>
+            <div class="oval"><div class="day5"> </div></div>
+            <div class="oval"><div class="day6"> </div></div>
+            <div class="oval"><div class="day7"> </div></div>
+        </div>
+    </div>
+    <script src="/static/js/awesomplete.min.js"></script>
+    <script src="/static/js/2.1.1/jquery-2.1.1.min.js"></script>
+    <script src="/static/js/jquery-ui.min.js"></script>
+    <script src="/static/js/bootstrap.bundle.min.js"></script>
+    <script src="/static/js/test_w.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script src="/static/js/1.12.1_jquery-ui.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/dubrox/Multiple-Dates-Picker-for-jQuery-UI@master/jquery-ui.multidatespicker.js"></script>
+    <script src="/static/js/modal.js"></script>
+    <script src="/static/js/disable.js"></script>
+
+    <script>
+        function togglePasswordVisibility() {
+            var passwordField = document.getElementById("password");
+            if (passwordField.type === "password") {
+                passwordField.type = "text";
+            } else {
+                passwordField.type = "password";
+            }
+        }
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %} {% endblock %} - FlaskApp</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/jquery-ui.min.css">
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link rel="stylesheet" href="/static/css/admin.css">
+    <link rel="stylesheet" href="/static/css/day.css">
+    <link rel="stylesheet" href="/static/css/pure.css">
+    <link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+  
+      input {
+        width: 300px;
+        padding: 7px;
+      }
+  
+      .ui-state-highlight {
+        border: 0 !important;
+      }
+  
+      .ui-state-highlight a {
+        background: #363636 !important;
+        color: #fff !important;
+      }
+    </style>
+    
+
+</head>
+<body>
+    <nav>
+        <a href="/protected">Главная</a>
+        <a href="/calendar">Создание</a>
+        <a href="/protected/disables">Управление датами</a>
+        <a href="/logout">Выход</a>
+
+    </nav>
+    <hr>
+    <div class="content">
+        {% block content %} {% endblock %}
+    </div>
+    <script src="/static/js/2.1.1/jquery-2.1.1.min.js"></script>
+    <script src="/static/js/jquery-ui.min.js"></script>
+    <script src="/static/js/bootstrap.bundle.min.js"></script>
+    <script src="/static/js/main.js"></script>
+    <!-- <script src="/static/js/admin.js"></script>
+    <script src="/static/js/day.js"></script> -->
+    <script src="/static/js/disable.js"></script>
+    <script src="/static/js/test_w.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/dubrox/Multiple-Dates-Picker-for-jQuery-UI@master/jquery-ui.multidatespicker.js"></script>
+
+</body>
+</html>

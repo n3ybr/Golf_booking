@@ -1,0 +1,113 @@
+.col-sm-6-left{
+    flex: 0 0 auto;
+    width: 40%;
+    border-radius: 10px;
+}
+.col-sm-6-right{
+    flex: 0 0 auto;
+    width: 60%;
+}
+.booking-name {
+    color: #000;
+    font-family: Inter;
+    font-size: xx-large; 
+    font-weight: 400;
+    line-height: normal;
+}
+body{
+    background: #D8EAFF;
+
+      
+}
+.info-side {
+    border-radius: 10px;
+    padding: 2%;
+    border: 1px solid #000;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.info-area{
+    width: 90%;
+    height: 80%;
+    padding: 2%;
+    flex-shrink: 0;
+    border-radius: 28px;
+    border: 1px solid #000;
+    background: #FFF;
+    text-align:left;
+}
+
+.time-date{
+    font-size: x-large;
+    padding: 1%;
+}
+
+.status {
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    border-top: 7px solid #B9FF8D;
+    border-bottom: 7px solid #B9FF8D;
+    padding: 3px;
+    line-height: normal;
+}
+
+.head-contacts{
+    font-weight: 500;
+    font-size: larger;
+    text-decoration: underline;
+}
+.contacts, .guests-card, .dop-oborudovanie {
+    border-radius: 12px;
+    background: #FBFBFB;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-left: 1%;
+    width: 58%;
+    margin-block: 1%;
+    padding: 3%;
+}
+.summ{
+    font-size: 22px;
+    padding: 2%;   
+}
+
+.textarea-wrapper {
+    position: relative;
+}
+
+textarea {
+    border-radius: 25px;
+    border: 1px solid #000;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 89%;
+    margin-top: 2%;
+    padding: 1%;
+}
+
+.send_comm {
+    position: absolute;
+    top: 50%;
+    margin-inline: -30px; /* Регулируйте отступ справа по вашему усмотрению */
+    transform: translateY(-50%);
+    border: none;
+    background: none;
+    font-size: 20px; /* Размер шрифта кнопки */
+    cursor: pointer;
+}
+.equipment-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-text {
+    flex-grow: 1;
+    margin-right: 10px; /* Расстояние между текстом и символом */
+}
+
+.item-icon {
+    font-size: 20px; /* Размер символа (подберите под ваш дизайн) */
+}

@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h3 class="title">{% block title %} Бронирования  <a href="{{ url_for('protected') }}">Неделя</a> {% endblock %}</h3>
+  <div class="container-table" style="width: 60%;">
+	<table class="table table-bordered" ">
+		<thead>
+			<tr>
+        <th class="col-sm-1-times" style="width: 5%;"><div class="navarr" id="left"><i  class="arrow left"></i></div></th>
+        <th>Время</th>
+				<th class="navdate" style="text-align: center;" id="day1">{{ date1 }}</th>
+        <th class="col-sm-1-times" style="width: 5%;"><div class="navarr" id="right"><i  class="arrow right"></i></div></th>
+			</tr> 
+		<tbody>
+    {% for time in all_times %}
+			<tr>
+        <td></td>
+        <td style="width: 10%;">{{ time }} </td>
+        <td style="width: 60%; text-align: center;" class="day1">{{ day1.get(time) }}</td>
+        <td></td>
+
+			</tr>
+    {% endfor %}
+		</tbody>
+	</table>
+  </div> 
+{% endblock %}

@@ -1,0 +1,1803 @@
+2023-08-23 19:17:20,993 - ERROR - Exception on /get_guest_names [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/admsrv/dev/golf_pay/app.py", line 268, in get_guest_names
+    guest_names = [guest.last_name for guest in guest_names]
+  File "/home/admsrv/dev/golf_pay/app.py", line 268, in <listcomp>
+    guest_names = [guest.last_name for guest in guest_names]
+AttributeError: 'Test' object has no attribute 'last_name'
+2023-08-23 19:17:21,902 - ERROR - Exception on /get_guest_names [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/admsrv/dev/golf_pay/app.py", line 268, in get_guest_names
+    guest_names = [guest.last_name for guest in guest_names]
+  File "/home/admsrv/dev/golf_pay/app.py", line 268, in <listcomp>
+    guest_names = [guest.last_name for guest in guest_names]
+AttributeError: 'Test' object has no attribute 'last_name'
+2023-08-23 19:17:26,786 - ERROR - Exception on /get_guest_names [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/admsrv/dev/golf_pay/app.py", line 268, in get_guest_names
+    guest_names = [guest.last_name for guest in guest_names]
+  File "/home/admsrv/dev/golf_pay/app.py", line 268, in <listcomp>
+    guest_names = [guest.last_name for guest in guest_names]
+AttributeError: 'Test' object has no attribute 'last_name'
+2023-08-23 19:17:27,298 - ERROR - Exception on /get_guest_names [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/admsrv/dev/golf_pay/app.py", line 268, in get_guest_names
+    guest_names = [guest.last_name for guest in guest_names]
+  File "/home/admsrv/dev/golf_pay/app.py", line 268, in <listcomp>
+    guest_names = [guest.last_name for guest in guest_names]
+AttributeError: 'Test' object has no attribute 'last_name'
+2023-08-23 19:17:27,618 - ERROR - Exception on /get_guest_names [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/admsrv/dev/golf_pay/app.py", line 268, in get_guest_names
+    guest_names = [guest.last_name for guest in guest_names]
+  File "/home/admsrv/dev/golf_pay/app.py", line 268, in <listcomp>
+    guest_names = [guest.last_name for guest in guest_names]
+AttributeError: 'Test' object has no attribute 'last_name'
+2023-08-23 19:17:27,689 - ERROR - Exception on /get_guest_names [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/admsrv/dev/golf_pay/app.py", line 268, in get_guest_names
+    guest_names = [guest.last_name for guest in guest_names]
+  File "/home/admsrv/dev/golf_pay/app.py", line 268, in <listcomp>
+    guest_names = [guest.last_name for guest in guest_names]
+AttributeError: 'Test' object has no attribute 'last_name'
+2023-08-23 19:17:27,986 - ERROR - Exception on /get_guest_names [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/admsrv/dev/golf_pay/app.py", line 268, in get_guest_names
+    guest_names = [guest.last_name for guest in guest_names]
+  File "/home/admsrv/dev/golf_pay/app.py", line 268, in <listcomp>
+    guest_names = [guest.last_name for guest in guest_names]
+AttributeError: 'Test' object has no attribute 'last_name'
+2023-08-23 19:17:27,994 - ERROR - Exception on /get_guest_names [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/admsrv/dev/golf_pay/app.py", line 268, in get_guest_names
+    guest_names = [guest.last_name for guest in guest_names]
+  File "/home/admsrv/dev/golf_pay/app.py", line 268, in <listcomp>
+    guest_names = [guest.last_name for guest in guest_names]
+AttributeError: 'Test' object has no attribute 'last_name'
+2023-08-23 19:17:28,227 - ERROR - Exception on /get_guest_names [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/admsrv/dev/golf_pay/app.py", line 268, in get_guest_names
+    guest_names = [guest.last_name for guest in guest_names]
+  File "/home/admsrv/dev/golf_pay/app.py", line 268, in <listcomp>
+    guest_names = [guest.last_name for guest in guest_names]
+AttributeError: 'Test' object has no attribute 'last_name'
+2023-08-23 19:17:28,728 - ERROR - Exception on /get_guest_names [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/admsrv/dev/golf_pay/app.py", line 268, in get_guest_names
+    guest_names = [guest.last_name for guest in guest_names]
+  File "/home/admsrv/dev/golf_pay/app.py", line 268, in <listcomp>
+    guest_names = [guest.last_name for guest in guest_names]
+AttributeError: 'Test' object has no attribute 'last_name'
+2023-08-23 19:17:28,734 - ERROR - Exception on /get_guest_names [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/admsrv/dev/golf_pay/app.py", line 268, in get_guest_names
+    guest_names = [guest.last_name for guest in guest_names]
+  File "/home/admsrv/dev/golf_pay/app.py", line 268, in <listcomp>
+    guest_names = [guest.last_name for guest in guest_names]
+AttributeError: 'Test' object has no attribute 'last_name'
+2023-08-23 19:17:28,950 - ERROR - Exception on /get_guest_names [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/admsrv/dev/golf_pay/app.py", line 268, in get_guest_names
+    guest_names = [guest.last_name for guest in guest_names]
+  File "/home/admsrv/dev/golf_pay/app.py", line 268, in <listcomp>
+    guest_names = [guest.last_name for guest in guest_names]
+AttributeError: 'Test' object has no attribute 'last_name'
+2023-08-23 19:17:29,909 - ERROR - Exception on /get_guest_names [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/admsrv/dev/golf_pay/app.py", line 268, in get_guest_names
+    guest_names = [guest.last_name for guest in guest_names]
+  File "/home/admsrv/dev/golf_pay/app.py", line 268, in <listcomp>
+    guest_names = [guest.last_name for guest in guest_names]
+AttributeError: 'Test' object has no attribute 'last_name'
+2023-08-23 19:17:30,181 - ERROR - Exception on /get_guest_names [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/admsrv/dev/golf_pay/app.py", line 268, in get_guest_names
+    guest_names = [guest.last_name for guest in guest_names]
+  File "/home/admsrv/dev/golf_pay/app.py", line 268, in <listcomp>
+    guest_names = [guest.last_name for guest in guest_names]
+AttributeError: 'Test' object has no attribute 'last_name'
+2023-08-23 19:17:31,095 - ERROR - Exception on /get_guest_names [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/admsrv/dev/golf_pay/app.py", line 268, in get_guest_names
+    guest_names = [guest.last_name for guest in guest_names]
+  File "/home/admsrv/dev/golf_pay/app.py", line 268, in <listcomp>
+    guest_names = [guest.last_name for guest in guest_names]
+AttributeError: 'Test' object has no attribute 'last_name'
+2023-08-23 19:18:08,017 - ERROR - Exception on /get_guest_names [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/admsrv/dev/golf_pay/app.py", line 268, in get_guest_names
+    guest_names = [guest.last_name for guest in guest_names]
+  File "/home/admsrv/dev/golf_pay/app.py", line 268, in <listcomp>
+    guest_names = [guest.last_name for guest in guest_names]
+AttributeError: 'Test' object has no attribute 'last_name'
+2023-08-23 19:18:08,038 - ERROR - Exception on /get_guest_names [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/admsrv/dev/golf_pay/app.py", line 268, in get_guest_names
+    guest_names = [guest.last_name for guest in guest_names]
+  File "/home/admsrv/dev/golf_pay/app.py", line 268, in <listcomp>
+    guest_names = [guest.last_name for guest in guest_names]
+AttributeError: 'Test' object has no attribute 'last_name'
+2023-08-23 19:18:08,181 - ERROR - Exception on /get_guest_names [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/admsrv/dev/golf_pay/app.py", line 268, in get_guest_names
+    guest_names = [guest.last_name for guest in guest_names]
+  File "/home/admsrv/dev/golf_pay/app.py", line 268, in <listcomp>
+    guest_names = [guest.last_name for guest in guest_names]
+AttributeError: 'Test' object has no attribute 'last_name'
+2023-08-23 20:41:20,539 - ERROR - Exception on /get_guest_names [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in get_guest_names
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in <listcomp>
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+AttributeError: 'Test' object has no attribute 'last_name'
+2023-08-23 20:41:20,871 - ERROR - Exception on /get_guest_names [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in get_guest_names
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in <listcomp>
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+AttributeError: 'Test' object has no attribute 'last_name'
+2023-08-23 20:41:21,025 - ERROR - Exception on /get_guest_names [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in get_guest_names
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in <listcomp>
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+AttributeError: 'Test' object has no attribute 'last_name'
+2023-08-23 20:41:21,036 - ERROR - Exception on /get_guest_names [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in get_guest_names
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in <listcomp>
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+AttributeError: 'Test' object has no attribute 'last_name'
+2023-08-23 20:41:21,756 - ERROR - Exception on /get_guest_names [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in get_guest_names
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in <listcomp>
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+AttributeError: 'Test' object has no attribute 'last_name'
+2023-08-23 20:41:21,760 - ERROR - Exception on /get_guest_names [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in get_guest_names
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in <listcomp>
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+AttributeError: 'Test' object has no attribute 'last_name'
+2023-08-23 20:41:22,755 - ERROR - Exception on /get_guest_names [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in get_guest_names
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in <listcomp>
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+AttributeError: 'Test' object has no attribute 'last_name'
+2023-08-23 20:41:22,905 - ERROR - Exception on /get_guest_names [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in get_guest_names
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in <listcomp>
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+AttributeError: 'Test' object has no attribute 'last_name'
+2023-08-23 20:41:23,289 - ERROR - Exception on /get_guest_names [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in get_guest_names
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in <listcomp>
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+AttributeError: 'Test' object has no attribute 'last_name'
+2023-08-23 20:41:23,456 - ERROR - Exception on /get_guest_names [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in get_guest_names
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in <listcomp>
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+AttributeError: 'Test' object has no attribute 'last_name'
+2023-08-23 20:41:23,461 - ERROR - Exception on /get_guest_names [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in get_guest_names
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in <listcomp>
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+AttributeError: 'Test' object has no attribute 'last_name'
+2023-08-23 20:41:23,466 - ERROR - Exception on /get_guest_names [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in get_guest_names
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in <listcomp>
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+AttributeError: 'Test' object has no attribute 'last_name'
+2023-08-23 20:41:24,033 - ERROR - Exception on /get_guest_names [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in get_guest_names
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in <listcomp>
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+AttributeError: 'Test' object has no attribute 'last_name'
+2023-08-23 20:41:24,090 - ERROR - Exception on /get_guest_names [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in get_guest_names
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in <listcomp>
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+AttributeError: 'Test' object has no attribute 'last_name'
+2023-08-23 20:41:24,114 - ERROR - Exception on /get_guest_names [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in get_guest_names
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in <listcomp>
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+AttributeError: 'Test' object has no attribute 'last_name'
+2023-08-23 20:41:24,118 - ERROR - Exception on /get_guest_names [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in get_guest_names
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in <listcomp>
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+AttributeError: 'Test' object has no attribute 'last_name'
+2023-08-23 20:41:24,122 - ERROR - Exception on /get_guest_names [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in get_guest_names
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in <listcomp>
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+AttributeError: 'Test' object has no attribute 'last_name'
+2023-08-23 20:41:24,125 - ERROR - Exception on /get_guest_names [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in get_guest_names
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in <listcomp>
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+AttributeError: 'Test' object has no attribute 'last_name'
+2023-08-23 20:41:24,129 - ERROR - Exception on /get_guest_names [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in get_guest_names
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in <listcomp>
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+AttributeError: 'Test' object has no attribute 'last_name'
+2023-08-23 20:41:24,133 - ERROR - Exception on /get_guest_names [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in get_guest_names
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in <listcomp>
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+AttributeError: 'Test' object has no attribute 'last_name'
+2023-08-23 20:41:24,166 - ERROR - Exception on /get_guest_names [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in get_guest_names
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in <listcomp>
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+AttributeError: 'Test' object has no attribute 'last_name'
+2023-08-23 20:41:24,277 - ERROR - Exception on /get_guest_names [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in get_guest_names
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in <listcomp>
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+AttributeError: 'Test' object has no attribute 'last_name'
+2023-08-23 20:41:24,285 - ERROR - Exception on /get_guest_names [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in get_guest_names
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in <listcomp>
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+AttributeError: 'Test' object has no attribute 'last_name'
+2023-08-23 20:41:24,338 - ERROR - Exception on /get_guest_names [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in get_guest_names
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in <listcomp>
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+AttributeError: 'Test' object has no attribute 'last_name'
+2023-08-23 20:41:24,342 - ERROR - Exception on /get_guest_names [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in get_guest_names
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in <listcomp>
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+AttributeError: 'Test' object has no attribute 'last_name'
+2023-08-23 20:41:24,362 - ERROR - Exception on /get_guest_names [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in get_guest_names
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in <listcomp>
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+AttributeError: 'Test' object has no attribute 'last_name'
+2023-08-23 20:41:24,377 - ERROR - Exception on /get_guest_names [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in get_guest_names
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in <listcomp>
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+AttributeError: 'Test' object has no attribute 'last_name'
+2023-08-23 20:41:24,391 - ERROR - Exception on /get_guest_names [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in get_guest_names
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in <listcomp>
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+AttributeError: 'Test' object has no attribute 'last_name'
+2023-08-23 20:41:24,396 - ERROR - Exception on /get_guest_names [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in get_guest_names
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in <listcomp>
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+AttributeError: 'Test' object has no attribute 'last_name'
+2023-08-23 20:41:24,411 - ERROR - Exception on /get_guest_names [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in get_guest_names
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in <listcomp>
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+AttributeError: 'Test' object has no attribute 'last_name'
+2023-08-23 20:41:24,488 - ERROR - Exception on /get_guest_names [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in get_guest_names
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in <listcomp>
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+AttributeError: 'Test' object has no attribute 'last_name'
+2023-08-23 20:41:24,561 - ERROR - Exception on /get_guest_names [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in get_guest_names
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in <listcomp>
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+AttributeError: 'Test' object has no attribute 'last_name'
+2023-08-23 20:41:24,589 - ERROR - Exception on /get_guest_names [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in get_guest_names
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in <listcomp>
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+AttributeError: 'Test' object has no attribute 'last_name'
+2023-08-23 20:41:24,596 - ERROR - Exception on /get_guest_names [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in get_guest_names
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in <listcomp>
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+AttributeError: 'Test' object has no attribute 'last_name'
+2023-08-23 20:41:24,601 - ERROR - Exception on /get_guest_names [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in get_guest_names
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in <listcomp>
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+AttributeError: 'Test' object has no attribute 'last_name'
+2023-08-23 20:41:24,620 - ERROR - Exception on /get_guest_names [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in get_guest_names
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in <listcomp>
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+AttributeError: 'Test' object has no attribute 'last_name'
+2023-08-23 20:41:24,625 - ERROR - Exception on /get_guest_names [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in get_guest_names
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in <listcomp>
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+AttributeError: 'Test' object has no attribute 'last_name'
+2023-08-23 20:41:24,789 - ERROR - Exception on /get_guest_names [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in get_guest_names
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in <listcomp>
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+AttributeError: 'Test' object has no attribute 'last_name'
+2023-08-23 20:41:24,891 - ERROR - Exception on /get_guest_names [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in get_guest_names
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in <listcomp>
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+AttributeError: 'Test' object has no attribute 'last_name'
+2023-08-23 20:41:27,404 - ERROR - Exception on /get_guest_names [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in get_guest_names
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in <listcomp>
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+AttributeError: 'Test' object has no attribute 'last_name'
+2023-08-23 20:41:30,526 - ERROR - Exception on /get_guest_names [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in get_guest_names
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in <listcomp>
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+AttributeError: 'Test' object has no attribute 'last_name'
+2023-08-23 20:41:30,530 - ERROR - Exception on /get_guest_names [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in get_guest_names
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in <listcomp>
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+AttributeError: 'Test' object has no attribute 'last_name'
+2023-08-23 20:41:39,613 - ERROR - Exception on /get_guest_names [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in get_guest_names
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in <listcomp>
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+AttributeError: 'Test' object has no attribute 'last_name'
+2023-08-23 20:41:39,628 - ERROR - Exception on /get_guest_names [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in get_guest_names
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in <listcomp>
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+AttributeError: 'Test' object has no attribute 'last_name'
+2023-08-23 20:41:39,783 - ERROR - Exception on /get_guest_names [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in get_guest_names
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in <listcomp>
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+AttributeError: 'Test' object has no attribute 'last_name'
+2023-08-23 20:41:45,661 - ERROR - Exception on /get_guest_names [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in get_guest_names
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+  File "/home/admsrv/dev/golf_pay/app.py", line 266, in <listcomp>
+    guest_names = [(guest.date, guest.last_name) for guest in guest_names]
+AttributeError: 'Test' object has no attribute 'last_name'
+2023-08-25 13:44:42,288 - ERROR - ('9:00', 0)
+2023-08-25 13:44:42,316 - ERROR - ('9:15', 0)
+2023-08-25 13:44:42,316 - ERROR - ('9:30', 0)
+2023-08-25 13:44:42,317 - ERROR - ('9:45', 0)
+2023-08-25 13:44:42,317 - ERROR - ('10:00', 0)
+2023-08-25 13:44:42,317 - ERROR - ('10:15', 0)
+2023-08-25 13:44:42,317 - ERROR - ('10:30', 0)
+2023-08-25 13:44:42,317 - ERROR - ('10:45', 0)
+2023-08-25 13:44:42,317 - ERROR - ('11:00', 0)
+2023-08-25 13:44:42,317 - ERROR - ('11:15', 0)
+2023-08-25 13:44:42,317 - ERROR - ('11:30', 0)
+2023-08-25 13:44:42,317 - ERROR - ('11:45', 0)
+2023-08-25 13:44:42,317 - ERROR - ('12:00', 0)
+2023-08-25 13:44:42,317 - ERROR - ('12:15', 0)
+2023-08-25 13:44:42,317 - ERROR - ('12:30', 0)
+2023-08-25 13:44:42,317 - ERROR - ('12:45', 0)
+2023-08-25 13:44:42,318 - ERROR - ('13:00', 0)
+2023-08-25 13:44:42,318 - ERROR - ('13:15', 0)
+2023-08-25 13:44:42,318 - ERROR - ('13:30', 0)
+2023-08-25 13:44:42,318 - ERROR - ('13:45', 0)
+2023-08-25 13:44:42,318 - ERROR - ('14:00', 0)
+2023-08-25 13:44:42,318 - ERROR - ('14:15', 0)
+2023-08-25 13:44:42,318 - ERROR - ('14:30', 0)
+2023-08-25 13:44:42,318 - ERROR - ('14:45', 0)
+2023-08-25 13:44:42,318 - ERROR - ('15:00', 0)
+2023-08-25 13:44:42,318 - ERROR - ('15:15', 0)
+2023-08-25 13:44:42,318 - ERROR - ('15:30', 0)
+2023-08-25 13:44:42,318 - ERROR - ('15:45', 0)
+2023-08-25 13:44:42,318 - ERROR - ('16:00', 0)
+2023-08-25 13:44:42,319 - ERROR - ('16:15', 0)
+2023-08-25 13:44:42,319 - ERROR - ('16:30', 0)
+2023-08-25 13:44:42,319 - ERROR - ('16:45', 0)
+2023-08-25 13:44:42,319 - ERROR - ('17:00', 0)
+2023-08-25 13:44:42,319 - ERROR - ('17:15', 0)
+2023-08-25 13:44:42,319 - ERROR - ('17:30', 0)
+2023-08-25 13:44:42,319 - ERROR - ('17:45', 0)
+2023-08-25 13:44:55,213 - ERROR - ('9:00', 0)
+2023-08-25 13:44:55,213 - ERROR - ('9:15', 0)
+2023-08-25 13:44:55,213 - ERROR - ('9:30', 0)
+2023-08-25 13:44:55,213 - ERROR - ('9:45', 0)
+2023-08-25 13:44:55,213 - ERROR - ('10:00', 0)
+2023-08-25 13:44:55,214 - ERROR - ('10:15', 0)
+2023-08-25 13:44:55,214 - ERROR - ('10:30', 0)
+2023-08-25 13:44:55,214 - ERROR - ('10:45', 0)
+2023-08-25 13:44:55,214 - ERROR - ('11:00', 0)
+2023-08-25 13:44:55,214 - ERROR - ('11:15', 0)
+2023-08-25 13:44:55,214 - ERROR - ('11:30', 0)
+2023-08-25 13:44:55,214 - ERROR - ('11:45', 0)
+2023-08-25 13:44:55,214 - ERROR - ('12:00', 0)
+2023-08-25 13:44:55,214 - ERROR - ('12:15', 0)
+2023-08-25 13:44:55,214 - ERROR - ('12:30', 0)
+2023-08-25 13:44:55,214 - ERROR - ('12:45', 0)
+2023-08-25 13:44:55,214 - ERROR - ('13:00', 0)
+2023-08-25 13:44:55,214 - ERROR - ('13:15', 0)
+2023-08-25 13:44:55,215 - ERROR - ('13:30', 0)
+2023-08-25 13:44:55,215 - ERROR - ('13:45', 0)
+2023-08-25 13:44:55,215 - ERROR - ('14:00', 0)
+2023-08-25 13:44:55,215 - ERROR - ('14:15', 0)
+2023-08-25 13:44:55,215 - ERROR - ('14:30', 0)
+2023-08-25 13:44:55,215 - ERROR - ('14:45', 0)
+2023-08-25 13:44:55,215 - ERROR - ('15:00', 0)
+2023-08-25 13:44:55,215 - ERROR - ('15:15', 0)
+2023-08-25 13:44:55,215 - ERROR - ('15:30', 0)
+2023-08-25 13:44:55,215 - ERROR - ('15:45', 0)
+2023-08-25 13:44:55,215 - ERROR - ('16:00', 0)
+2023-08-25 13:44:55,215 - ERROR - ('16:15', 0)
+2023-08-25 13:44:55,215 - ERROR - ('16:30', 0)
+2023-08-25 13:44:55,216 - ERROR - ('16:45', 0)
+2023-08-25 13:44:55,216 - ERROR - ('17:00', 0)
+2023-08-25 13:44:55,216 - ERROR - ('17:15', 0)
+2023-08-25 13:44:55,216 - ERROR - ('17:30', 0)
+2023-08-25 13:44:55,216 - ERROR - ('17:45', 0)
+2023-08-25 13:50:14,504 - ERROR - ('9:00', 0)
+2023-08-25 13:50:14,504 - ERROR - ('9:15', 0)
+2023-08-25 13:50:14,505 - ERROR - ('9:30', 0)
+2023-08-25 13:50:14,505 - ERROR - ('9:45', 0)
+2023-08-25 13:50:14,505 - ERROR - ('10:00', 0)
+2023-08-25 13:50:14,505 - ERROR - ('10:15', 0)
+2023-08-25 13:50:14,505 - ERROR - ('10:30', 0)
+2023-08-25 13:50:14,505 - ERROR - ('10:45', 0)
+2023-08-25 13:50:14,505 - ERROR - ('11:00', 0)
+2023-08-25 13:50:14,505 - ERROR - ('11:15', 0)
+2023-08-25 13:50:14,505 - ERROR - ('11:30', 0)
+2023-08-25 13:50:14,505 - ERROR - ('11:45', 0)
+2023-08-25 13:50:14,505 - ERROR - ('12:00', 0)
+2023-08-25 13:50:14,505 - ERROR - ('12:15', 0)
+2023-08-25 13:50:14,505 - ERROR - ('12:30', 0)
+2023-08-25 13:50:14,506 - ERROR - ('12:45', 0)
+2023-08-25 13:50:14,506 - ERROR - ('13:00', 0)
+2023-08-25 13:50:14,506 - ERROR - ('13:15', 0)
+2023-08-25 13:50:14,506 - ERROR - ('13:30', 0)
+2023-08-25 13:50:14,506 - ERROR - ('13:45', 0)
+2023-08-25 13:50:14,506 - ERROR - ('14:00', 0)
+2023-08-25 13:50:14,506 - ERROR - ('14:15', 0)
+2023-08-25 13:50:14,506 - ERROR - ('14:30', 0)
+2023-08-25 13:50:14,506 - ERROR - ('14:45', 0)
+2023-08-25 13:50:14,506 - ERROR - ('15:00', 0)
+2023-08-25 13:50:14,506 - ERROR - ('15:15', 0)
+2023-08-25 13:50:14,506 - ERROR - ('15:30', 0)
+2023-08-25 13:50:14,506 - ERROR - ('15:45', 0)
+2023-08-25 13:50:14,507 - ERROR - ('16:00', 0)
+2023-08-25 13:50:14,507 - ERROR - ('16:15', 0)
+2023-08-25 13:50:14,507 - ERROR - ('16:30', 0)
+2023-08-25 13:50:14,507 - ERROR - ('16:45', 0)
+2023-08-25 13:50:14,507 - ERROR - ('17:00', 0)
+2023-08-25 13:50:14,507 - ERROR - ('17:15', 0)
+2023-08-25 13:50:14,507 - ERROR - ('17:30', 0)
+2023-08-25 13:50:14,507 - ERROR - ('17:45', 0)
+2023-08-25 13:52:34,324 - ERROR - ('9:00', 0)
+2023-08-25 13:52:34,324 - ERROR - ('9:15', 0)
+2023-08-25 13:52:34,324 - ERROR - ('9:30', 0)
+2023-08-25 13:52:34,324 - ERROR - ('9:45', 0)
+2023-08-25 13:52:34,324 - ERROR - ('10:00', 0)
+2023-08-25 13:52:34,324 - ERROR - ('10:15', 0)
+2023-08-25 13:52:34,324 - ERROR - ('10:30', 0)
+2023-08-25 13:52:34,325 - ERROR - ('10:45', 0)
+2023-08-25 13:52:34,325 - ERROR - ('11:00', 0)
+2023-08-25 13:52:34,325 - ERROR - ('11:15', 0)
+2023-08-25 13:52:34,325 - ERROR - ('11:30', 0)
+2023-08-25 13:52:34,325 - ERROR - ('11:45', 0)
+2023-08-25 13:52:34,325 - ERROR - ('12:00', 0)
+2023-08-25 13:52:34,325 - ERROR - ('12:15', 0)
+2023-08-25 13:52:34,325 - ERROR - ('12:30', 0)
+2023-08-25 13:52:34,325 - ERROR - ('12:45', 0)
+2023-08-25 13:52:34,325 - ERROR - ('13:00', 0)
+2023-08-25 13:52:34,325 - ERROR - ('13:15', 0)
+2023-08-25 13:52:34,325 - ERROR - ('13:30', 0)
+2023-08-25 13:52:34,325 - ERROR - ('13:45', 0)
+2023-08-25 13:52:34,326 - ERROR - ('14:00', 0)
+2023-08-25 13:52:34,326 - ERROR - ('14:15', 0)
+2023-08-25 13:52:34,326 - ERROR - ('14:30', 0)
+2023-08-25 13:52:34,326 - ERROR - ('14:45', 0)
+2023-08-25 13:52:34,326 - ERROR - ('15:00', 0)
+2023-08-25 13:52:34,326 - ERROR - ('15:15', 0)
+2023-08-25 13:52:34,326 - ERROR - ('15:30', 0)
+2023-08-25 13:52:34,326 - ERROR - ('15:45', 0)
+2023-08-25 13:52:34,326 - ERROR - ('16:00', 0)
+2023-08-25 13:52:34,326 - ERROR - ('16:15', 0)
+2023-08-25 13:52:34,326 - ERROR - ('16:30', 0)
+2023-08-25 13:52:34,326 - ERROR - ('16:45', 0)
+2023-08-25 13:52:34,327 - ERROR - ('17:00', 0)
+2023-08-25 13:52:34,327 - ERROR - ('17:15', 0)
+2023-08-25 13:52:34,327 - ERROR - ('17:30', 0)
+2023-08-25 13:52:34,327 - ERROR - ('17:45', 0)
+2023-08-25 13:54:55,825 - ERROR - ('9:00', 0)
+2023-08-25 13:54:55,825 - ERROR - ('9:15', 0)
+2023-08-25 13:54:55,825 - ERROR - ('9:30', 0)
+2023-08-25 13:54:55,825 - ERROR - ('9:45', 0)
+2023-08-25 13:54:55,825 - ERROR - ('10:00', 0)
+2023-08-25 13:54:55,825 - ERROR - ('10:15', 0)
+2023-08-25 13:54:55,825 - ERROR - ('10:30', 0)
+2023-08-25 13:54:55,825 - ERROR - ('10:45', 0)
+2023-08-25 13:54:55,825 - ERROR - ('11:00', 0)
+2023-08-25 13:54:55,826 - ERROR - ('11:15', 0)
+2023-08-25 13:54:55,826 - ERROR - ('11:30', 0)
+2023-08-25 13:54:55,826 - ERROR - ('11:45', 0)
+2023-08-25 13:54:55,826 - ERROR - ('12:00', 0)
+2023-08-25 13:54:55,826 - ERROR - ('12:15', 0)
+2023-08-25 13:54:55,826 - ERROR - ('12:30', 0)
+2023-08-25 13:54:55,826 - ERROR - ('12:45', 0)
+2023-08-25 13:54:55,826 - ERROR - ('13:00', 0)
+2023-08-25 13:54:55,826 - ERROR - ('13:15', 0)
+2023-08-25 13:54:55,826 - ERROR - ('13:30', 0)
+2023-08-25 13:54:55,826 - ERROR - ('13:45', 0)
+2023-08-25 13:54:55,826 - ERROR - ('14:00', 0)
+2023-08-25 13:54:55,827 - ERROR - ('14:15', 0)
+2023-08-25 13:54:55,827 - ERROR - ('14:30', 0)
+2023-08-25 13:54:55,827 - ERROR - ('14:45', 0)
+2023-08-25 13:54:55,827 - ERROR - ('15:00', 0)
+2023-08-25 13:54:55,827 - ERROR - ('15:15', 0)
+2023-08-25 13:54:55,827 - ERROR - ('15:30', 0)
+2023-08-25 13:54:55,827 - ERROR - ('15:45', 0)
+2023-08-25 13:54:55,827 - ERROR - ('16:00', 0)
+2023-08-25 13:54:55,827 - ERROR - ('16:15', 0)
+2023-08-25 13:54:55,827 - ERROR - ('16:30', 0)
+2023-08-25 13:54:55,827 - ERROR - ('16:45', 0)
+2023-08-25 13:54:55,827 - ERROR - ('17:00', 0)
+2023-08-25 13:54:55,827 - ERROR - ('17:15', 0)
+2023-08-25 13:54:55,828 - ERROR - ('17:30', 0)
+2023-08-25 13:54:55,828 - ERROR - ('17:45', 0)
+2023-08-25 13:57:06,433 - ERROR - ('9:00', 0)
+2023-08-25 13:57:06,433 - ERROR - ('9:15', 0)
+2023-08-25 13:57:06,433 - ERROR - ('9:30', 0)
+2023-08-25 13:57:06,433 - ERROR - ('9:45', 0)
+2023-08-25 13:57:06,433 - ERROR - ('10:00', 0)
+2023-08-25 13:57:06,433 - ERROR - ('10:15', 0)
+2023-08-25 13:57:06,433 - ERROR - ('10:30', 0)
+2023-08-25 13:57:06,433 - ERROR - ('10:45', 0)
+2023-08-25 13:57:06,433 - ERROR - ('11:00', 0)
+2023-08-25 13:57:06,434 - ERROR - ('11:15', 0)
+2023-08-25 13:57:06,434 - ERROR - ('11:30', 0)
+2023-08-25 13:57:06,434 - ERROR - ('11:45', 0)
+2023-08-25 13:57:06,434 - ERROR - ('12:00', 0)
+2023-08-25 13:57:06,434 - ERROR - ('12:15', 0)
+2023-08-25 13:57:06,434 - ERROR - ('12:30', 0)
+2023-08-25 13:57:06,434 - ERROR - ('12:45', 0)
+2023-08-25 13:57:06,434 - ERROR - ('13:00', 0)
+2023-08-25 13:57:06,434 - ERROR - ('13:15', 0)
+2023-08-25 13:57:06,434 - ERROR - ('13:30', 0)
+2023-08-25 13:57:06,434 - ERROR - ('13:45', 0)
+2023-08-25 13:57:06,434 - ERROR - ('14:00', 0)
+2023-08-25 13:57:06,435 - ERROR - ('14:15', 0)
+2023-08-25 13:57:06,435 - ERROR - ('14:30', 0)
+2023-08-25 13:57:06,435 - ERROR - ('14:45', 0)
+2023-08-25 13:57:06,435 - ERROR - ('15:00', 0)
+2023-08-25 13:57:06,435 - ERROR - ('15:15', 0)
+2023-08-25 13:57:06,435 - ERROR - ('15:30', 0)
+2023-08-25 13:57:06,435 - ERROR - ('15:45', 0)
+2023-08-25 13:57:06,435 - ERROR - ('16:00', 0)
+2023-08-25 13:57:06,435 - ERROR - ('16:15', 0)
+2023-08-25 13:57:06,435 - ERROR - ('16:30', 0)
+2023-08-25 13:57:06,435 - ERROR - ('16:45', 0)
+2023-08-25 13:57:06,436 - ERROR - ('17:00', 0)
+2023-08-25 13:57:06,436 - ERROR - ('17:15', 0)
+2023-08-25 13:57:06,436 - ERROR - ('17:30', 0)
+2023-08-25 13:57:06,436 - ERROR - ('17:45', 0)
+2023-08-25 14:00:48,574 - ERROR - Aug 30 2023
+2023-08-25 14:00:48,615 - ERROR - Aug 26 2023
+2023-08-25 14:00:48,655 - ERROR - Aug 29 2023
+2023-08-25 14:00:48,694 - ERROR - Aug 25 2023
+2023-08-25 14:00:48,733 - ERROR - Aug 24 2023
+2023-08-25 14:00:48,771 - ERROR - Aug 28 2023
+2023-08-25 14:00:48,811 - ERROR - Aug 27 2023
+2023-08-25 14:00:55,019 - ERROR - ('9:00', 0)
+2023-08-25 14:00:55,019 - ERROR - ('9:15', 0)
+2023-08-25 14:00:55,020 - ERROR - ('9:30', 0)
+2023-08-25 14:00:55,020 - ERROR - ('9:45', 0)
+2023-08-25 14:00:55,020 - ERROR - ('10:00', 0)
+2023-08-25 14:00:55,020 - ERROR - ('10:15', 0)
+2023-08-25 14:00:55,020 - ERROR - ('10:30', 0)
+2023-08-25 14:00:55,020 - ERROR - ('10:45', 0)
+2023-08-25 14:00:55,020 - ERROR - ('11:00', 0)
+2023-08-25 14:00:55,020 - ERROR - ('11:15', 0)
+2023-08-25 14:00:55,020 - ERROR - ('11:30', 0)
+2023-08-25 14:00:55,020 - ERROR - ('11:45', 0)
+2023-08-25 14:00:55,020 - ERROR - ('12:00', 0)
+2023-08-25 14:00:55,020 - ERROR - ('12:15', 0)
+2023-08-25 14:00:55,020 - ERROR - ('12:30', 0)
+2023-08-25 14:00:55,020 - ERROR - ('12:45', 0)
+2023-08-25 14:00:55,021 - ERROR - ('13:00', 0)
+2023-08-25 14:00:55,021 - ERROR - ('13:15', 0)
+2023-08-25 14:00:55,021 - ERROR - ('13:30', 0)
+2023-08-25 14:00:55,021 - ERROR - ('13:45', 0)
+2023-08-25 14:00:55,021 - ERROR - ('14:00', 0)
+2023-08-25 14:00:55,021 - ERROR - ('14:15', 0)
+2023-08-25 14:00:55,021 - ERROR - ('14:30', 0)
+2023-08-25 14:00:55,021 - ERROR - ('14:45', 0)
+2023-08-25 14:00:55,021 - ERROR - ('15:00', 0)
+2023-08-25 14:00:55,021 - ERROR - ('15:15', 0)
+2023-08-25 14:00:55,021 - ERROR - ('15:30', 0)
+2023-08-25 14:00:55,021 - ERROR - ('15:45', 0)
+2023-08-25 14:00:55,021 - ERROR - ('16:00', 0)
+2023-08-25 14:00:55,022 - ERROR - ('16:15', 0)
+2023-08-25 14:00:55,022 - ERROR - ('16:30', 0)
+2023-08-25 14:00:55,022 - ERROR - ('16:45', 0)
+2023-08-25 14:00:55,022 - ERROR - ('17:00', 0)
+2023-08-25 14:00:55,022 - ERROR - ('17:15', 0)
+2023-08-25 14:00:55,022 - ERROR - ('17:30', 0)
+2023-08-25 14:00:55,022 - ERROR - ('17:45', 0)
+2023-08-25 14:00:59,640 - ERROR - ('9:00', 0)
+2023-08-25 14:00:59,640 - ERROR - ('9:15', 0)
+2023-08-25 14:00:59,640 - ERROR - ('9:30', 0)
+2023-08-25 14:00:59,640 - ERROR - ('9:45', 0)
+2023-08-25 14:00:59,641 - ERROR - ('10:00', 0)
+2023-08-25 14:00:59,641 - ERROR - ('10:15', 0)
+2023-08-25 14:00:59,641 - ERROR - ('10:30', 0)
+2023-08-25 14:00:59,641 - ERROR - ('10:45', 0)
+2023-08-25 14:00:59,641 - ERROR - ('11:00', 0)
+2023-08-25 14:00:59,641 - ERROR - ('11:15', 0)
+2023-08-25 14:00:59,641 - ERROR - ('11:30', 0)
+2023-08-25 14:00:59,641 - ERROR - ('11:45', 0)
+2023-08-25 14:00:59,641 - ERROR - ('12:00', 0)
+2023-08-25 14:00:59,641 - ERROR - ('12:15', 0)
+2023-08-25 14:00:59,642 - ERROR - ('12:30', 0)
+2023-08-25 14:00:59,642 - ERROR - ('12:45', 0)
+2023-08-25 14:00:59,642 - ERROR - ('13:00', 0)
+2023-08-25 14:00:59,642 - ERROR - ('13:15', 0)
+2023-08-25 14:00:59,642 - ERROR - ('13:30', 0)
+2023-08-25 14:00:59,642 - ERROR - ('13:45', 0)
+2023-08-25 14:00:59,642 - ERROR - ('14:00', 0)
+2023-08-25 14:00:59,642 - ERROR - ('14:15', 0)
+2023-08-25 14:00:59,642 - ERROR - ('14:30', 0)
+2023-08-25 14:00:59,643 - ERROR - ('14:45', 0)
+2023-08-25 14:00:59,643 - ERROR - ('15:00', 0)
+2023-08-25 14:00:59,643 - ERROR - ('15:15', 0)
+2023-08-25 14:00:59,643 - ERROR - ('15:30', 0)
+2023-08-25 14:00:59,643 - ERROR - ('15:45', 0)
+2023-08-25 14:00:59,643 - ERROR - ('16:00', 0)
+2023-08-25 14:00:59,643 - ERROR - ('16:15', 0)
+2023-08-25 14:00:59,643 - ERROR - ('16:30', 0)
+2023-08-25 14:00:59,643 - ERROR - ('16:45', 0)
+2023-08-25 14:00:59,644 - ERROR - ('17:00', 0)
+2023-08-25 14:00:59,644 - ERROR - ('17:15', 0)
+2023-08-25 14:00:59,644 - ERROR - ('17:30', 0)
+2023-08-25 14:00:59,644 - ERROR - ('17:45', 0)
+2023-08-25 14:03:38,370 - ERROR - ('9:00', 0)
+2023-08-25 14:03:38,370 - ERROR - ('9:15', 0)
+2023-08-25 14:03:38,370 - ERROR - ('9:30', 0)
+2023-08-25 14:03:38,370 - ERROR - ('9:45', 0)
+2023-08-25 14:03:38,370 - ERROR - ('10:00', 0)
+2023-08-25 14:03:38,370 - ERROR - ('10:15', 0)
+2023-08-25 14:03:38,370 - ERROR - ('10:30', 0)
+2023-08-25 14:03:38,370 - ERROR - ('10:45', 0)
+2023-08-25 14:03:38,370 - ERROR - ('11:00', 0)
+2023-08-25 14:03:38,370 - ERROR - ('11:15', 0)
+2023-08-25 14:03:38,370 - ERROR - ('11:30', 0)
+2023-08-25 14:03:38,371 - ERROR - ('11:45', 0)
+2023-08-25 14:03:38,371 - ERROR - ('12:00', 0)
+2023-08-25 14:03:38,371 - ERROR - ('12:15', 0)
+2023-08-25 14:03:38,371 - ERROR - ('12:30', 0)
+2023-08-25 14:03:38,371 - ERROR - ('12:45', 0)
+2023-08-25 14:03:38,371 - ERROR - ('13:00', 0)
+2023-08-25 14:03:38,371 - ERROR - ('13:15', 0)
+2023-08-25 14:03:38,371 - ERROR - ('13:30', 0)
+2023-08-25 14:03:38,371 - ERROR - ('13:45', 0)
+2023-08-25 14:03:38,371 - ERROR - ('14:00', 0)
+2023-08-25 14:03:38,371 - ERROR - ('14:15', 0)
+2023-08-25 14:03:38,371 - ERROR - ('14:30', 0)
+2023-08-25 14:03:38,372 - ERROR - ('14:45', 0)
+2023-08-25 14:03:38,372 - ERROR - ('15:00', 0)
+2023-08-25 14:03:38,372 - ERROR - ('15:15', 0)
+2023-08-25 14:03:38,372 - ERROR - ('15:30', 0)
+2023-08-25 14:03:38,372 - ERROR - ('15:45', 0)
+2023-08-25 14:03:38,372 - ERROR - ('16:00', 0)
+2023-08-25 14:03:38,372 - ERROR - ('16:15', 0)
+2023-08-25 14:03:38,372 - ERROR - ('16:30', 0)
+2023-08-25 14:03:38,372 - ERROR - ('16:45', 0)
+2023-08-25 14:03:38,372 - ERROR - ('17:00', 0)
+2023-08-25 14:03:38,372 - ERROR - ('17:15', 0)
+2023-08-25 14:03:38,372 - ERROR - ('17:30', 0)
+2023-08-25 14:03:38,372 - ERROR - ('17:45', 0)
+2023-08-25 15:12:45,512 - ERROR - ('9:00', 0)
+2023-08-25 15:12:45,512 - ERROR - ('9:15', 0)
+2023-08-25 15:12:45,512 - ERROR - ('9:30', 0)
+2023-08-25 15:12:45,512 - ERROR - ('9:45', 0)
+2023-08-25 15:12:45,513 - ERROR - ('10:00', 0)
+2023-08-25 15:12:45,513 - ERROR - ('10:15', 0)
+2023-08-25 15:12:45,513 - ERROR - ('10:30', 0)
+2023-08-25 15:12:45,513 - ERROR - ('10:45', 0)
+2023-08-25 15:12:45,513 - ERROR - ('11:00', 0)
+2023-08-25 15:12:45,513 - ERROR - ('11:15', 0)
+2023-08-25 15:12:45,513 - ERROR - ('11:30', 0)
+2023-08-25 15:12:45,513 - ERROR - ('11:45', 0)
+2023-08-25 15:12:45,513 - ERROR - ('12:00', 0)
+2023-08-25 15:12:45,513 - ERROR - ('12:15', 0)
+2023-08-25 15:12:45,513 - ERROR - ('12:30', 0)
+2023-08-25 15:12:45,513 - ERROR - ('12:45', 0)
+2023-08-25 15:12:45,513 - ERROR - ('13:00', 0)
+2023-08-25 15:12:45,514 - ERROR - ('13:15', 0)
+2023-08-25 15:12:45,514 - ERROR - ('13:30', 0)
+2023-08-25 15:12:45,514 - ERROR - ('13:45', 0)
+2023-08-25 15:12:45,514 - ERROR - ('14:00', 0)
+2023-08-25 15:12:45,514 - ERROR - ('14:15', 0)
+2023-08-25 15:12:45,514 - ERROR - ('14:30', 0)
+2023-08-25 15:12:45,514 - ERROR - ('14:45', 0)
+2023-08-25 15:12:45,514 - ERROR - ('15:00', 0)
+2023-08-25 15:12:45,514 - ERROR - ('15:15', 0)
+2023-08-25 15:12:45,515 - ERROR - ('15:30', 0)
+2023-08-25 15:12:45,515 - ERROR - ('15:45', 0)
+2023-08-25 15:12:45,515 - ERROR - ('16:00', 0)
+2023-08-25 15:12:45,515 - ERROR - ('16:15', 0)
+2023-08-25 15:12:45,515 - ERROR - ('16:30', 0)
+2023-08-25 15:12:45,515 - ERROR - ('16:45', 0)
+2023-08-25 15:12:45,515 - ERROR - ('17:00', 0)
+2023-08-25 15:12:45,515 - ERROR - ('17:15', 0)
+2023-08-25 15:12:45,515 - ERROR - ('17:30', 0)
+2023-08-25 15:12:45,515 - ERROR - ('17:45', 0)
+2023-08-25 15:12:58,408 - ERROR - ('9:00', 0)
+2023-08-25 15:12:58,408 - ERROR - ('9:15', 0)
+2023-08-25 15:12:58,408 - ERROR - ('9:30', 0)
+2023-08-25 15:12:58,408 - ERROR - ('9:45', 0)
+2023-08-25 15:12:58,408 - ERROR - ('10:00', 0)
+2023-08-25 15:12:58,408 - ERROR - ('10:15', 0)
+2023-08-25 15:12:58,408 - ERROR - ('10:30', 0)
+2023-08-25 15:12:58,408 - ERROR - ('10:45', 0)
+2023-08-25 15:12:58,409 - ERROR - ('11:00', 0)
+2023-08-25 15:12:58,409 - ERROR - ('11:15', 0)
+2023-08-25 15:12:58,409 - ERROR - ('11:30', 0)
+2023-08-25 15:12:58,409 - ERROR - ('11:45', 0)
+2023-08-25 15:12:58,409 - ERROR - ('12:00', 0)
+2023-08-25 15:12:58,409 - ERROR - ('12:15', 0)
+2023-08-25 15:12:58,409 - ERROR - ('12:30', 0)
+2023-08-25 15:12:58,409 - ERROR - ('12:45', 0)
+2023-08-25 15:12:58,409 - ERROR - ('13:00', 0)
+2023-08-25 15:12:58,409 - ERROR - ('13:15', 0)
+2023-08-25 15:12:58,409 - ERROR - ('13:30', 0)
+2023-08-25 15:12:58,409 - ERROR - ('13:45', 0)
+2023-08-25 15:12:58,409 - ERROR - ('14:00', 0)
+2023-08-25 15:12:58,409 - ERROR - ('14:15', 0)
+2023-08-25 15:12:58,410 - ERROR - ('14:30', 0)
+2023-08-25 15:12:58,410 - ERROR - ('14:45', 0)
+2023-08-25 15:12:58,410 - ERROR - ('15:00', 0)
+2023-08-25 15:12:58,410 - ERROR - ('15:15', 0)
+2023-08-25 15:12:58,410 - ERROR - ('15:30', 0)
+2023-08-25 15:12:58,410 - ERROR - ('15:45', 0)
+2023-08-25 15:12:58,410 - ERROR - ('16:00', 0)
+2023-08-25 15:12:58,410 - ERROR - ('16:15', 0)
+2023-08-25 15:12:58,410 - ERROR - ('16:30', 0)
+2023-08-25 15:12:58,410 - ERROR - ('16:45', 0)
+2023-08-25 15:12:58,410 - ERROR - ('17:00', 0)
+2023-08-25 15:12:58,410 - ERROR - ('17:15', 0)
+2023-08-25 15:12:58,410 - ERROR - ('17:30', 0)
+2023-08-25 15:12:58,411 - ERROR - ('17:45', 0)
+2023-08-25 15:13:56,427 - ERROR - ('9:00', 0)
+2023-08-25 15:13:56,427 - ERROR - ('9:15', 0)
+2023-08-25 15:13:56,428 - ERROR - ('9:30', 0)
+2023-08-25 15:13:56,428 - ERROR - ('9:45', 0)
+2023-08-25 15:13:56,428 - ERROR - ('10:00', 0)
+2023-08-25 15:13:56,428 - ERROR - ('10:15', 0)
+2023-08-25 15:13:56,428 - ERROR - ('10:30', 0)
+2023-08-25 15:13:56,428 - ERROR - ('10:45', 0)
+2023-08-25 15:13:56,428 - ERROR - ('11:00', 0)
+2023-08-25 15:13:56,428 - ERROR - ('11:15', 0)
+2023-08-25 15:13:56,428 - ERROR - ('11:30', 0)
+2023-08-25 15:13:56,428 - ERROR - ('11:45', 0)
+2023-08-25 15:13:56,428 - ERROR - ('12:00', 0)
+2023-08-25 15:13:56,428 - ERROR - ('12:15', 0)
+2023-08-25 15:13:56,429 - ERROR - ('12:30', 0)
+2023-08-25 15:13:56,429 - ERROR - ('12:45', 0)
+2023-08-25 15:13:56,429 - ERROR - ('13:00', 0)
+2023-08-25 15:13:56,429 - ERROR - ('13:15', 0)
+2023-08-25 15:13:56,429 - ERROR - ('13:30', 0)
+2023-08-25 15:13:56,429 - ERROR - ('13:45', 0)
+2023-08-25 15:13:56,429 - ERROR - ('14:00', 0)
+2023-08-25 15:13:56,429 - ERROR - ('14:15', 0)
+2023-08-25 15:13:56,429 - ERROR - ('14:30', 0)
+2023-08-25 15:13:56,429 - ERROR - ('14:45', 0)
+2023-08-25 15:13:56,429 - ERROR - ('15:00', 0)
+2023-08-25 15:13:56,429 - ERROR - ('15:15', 0)
+2023-08-25 15:13:56,429 - ERROR - ('15:30', 0)
+2023-08-25 15:13:56,430 - ERROR - ('15:45', 0)
+2023-08-25 15:13:56,430 - ERROR - ('16:00', 0)
+2023-08-25 15:13:56,430 - ERROR - ('16:15', 0)
+2023-08-25 15:13:56,430 - ERROR - ('16:30', 0)
+2023-08-25 15:13:56,430 - ERROR - ('16:45', 0)
+2023-08-25 15:13:56,430 - ERROR - ('17:00', 0)
+2023-08-25 15:13:56,430 - ERROR - ('17:15', 0)
+2023-08-25 15:13:56,430 - ERROR - ('17:30', 0)
+2023-08-25 15:13:56,430 - ERROR - ('17:45', 0)
+2023-08-25 15:29:27,103 - ERROR - ('9:00', 0)
+2023-08-25 15:29:27,103 - ERROR - ('9:15', 0)
+2023-08-25 15:29:27,103 - ERROR - ('9:30', 0)
+2023-08-25 15:29:27,103 - ERROR - ('9:45', 0)
+2023-08-25 15:29:27,103 - ERROR - ('10:00', 0)
+2023-08-25 15:29:27,103 - ERROR - ('10:15', 0)
+2023-08-25 15:29:27,103 - ERROR - ('10:30', 0)
+2023-08-25 15:29:27,103 - ERROR - ('10:45', 0)
+2023-08-25 15:29:27,104 - ERROR - ('11:00', 0)
+2023-08-25 15:29:27,104 - ERROR - ('11:15', 0)
+2023-08-25 15:29:27,104 - ERROR - ('11:30', 0)
+2023-08-25 15:29:27,104 - ERROR - ('11:45', 0)
+2023-08-25 15:29:27,104 - ERROR - ('12:00', 0)
+2023-08-25 15:29:27,104 - ERROR - ('12:15', 0)
+2023-08-25 15:29:27,104 - ERROR - ('12:30', 0)
+2023-08-25 15:29:27,104 - ERROR - ('12:45', 0)
+2023-08-25 15:29:27,104 - ERROR - ('13:00', 0)
+2023-08-25 15:29:27,104 - ERROR - ('13:15', 0)
+2023-08-25 15:29:27,104 - ERROR - ('13:30', 0)
+2023-08-25 15:29:27,104 - ERROR - ('13:45', 0)
+2023-08-25 15:29:27,104 - ERROR - ('14:00', 0)
+2023-08-25 15:29:27,105 - ERROR - ('14:15', 0)
+2023-08-25 15:29:27,105 - ERROR - ('14:30', 0)
+2023-08-25 15:29:27,105 - ERROR - ('14:45', 0)
+2023-08-25 15:29:27,105 - ERROR - ('15:00', 0)
+2023-08-25 15:29:27,105 - ERROR - ('15:15', 0)
+2023-08-25 15:29:27,105 - ERROR - ('15:30', 0)
+2023-08-25 15:29:27,105 - ERROR - ('15:45', 0)
+2023-08-25 15:29:27,105 - ERROR - ('16:00', 0)
+2023-08-25 15:29:27,105 - ERROR - ('16:15', 0)
+2023-08-25 15:29:27,105 - ERROR - ('16:30', 0)
+2023-08-25 15:29:27,105 - ERROR - ('16:45', 0)
+2023-08-25 15:29:27,105 - ERROR - ('17:00', 0)
+2023-08-25 15:29:27,106 - ERROR - ('17:15', 0)
+2023-08-25 15:29:27,106 - ERROR - ('17:30', 0)
+2023-08-25 15:29:27,106 - ERROR - ('17:45', 0)
+2023-08-25 15:31:06,861 - ERROR - ('9:00', 0)
+2023-08-25 15:31:06,861 - ERROR - ('9:15', 0)
+2023-08-25 15:31:06,862 - ERROR - ('9:30', 0)
+2023-08-25 15:31:06,862 - ERROR - ('9:45', 0)
+2023-08-25 15:31:06,862 - ERROR - ('10:00', 0)
+2023-08-25 15:31:06,862 - ERROR - ('10:15', 0)
+2023-08-25 15:31:06,862 - ERROR - ('10:30', 0)
+2023-08-25 15:31:06,862 - ERROR - ('10:45', 0)
+2023-08-25 15:31:06,862 - ERROR - ('11:00', 0)
+2023-08-25 15:31:06,862 - ERROR - ('11:15', 0)
+2023-08-25 15:31:06,863 - ERROR - ('11:30', 0)
+2023-08-25 15:31:06,863 - ERROR - ('11:45', 0)
+2023-08-25 15:31:06,863 - ERROR - ('12:00', 0)
+2023-08-25 15:31:06,863 - ERROR - ('12:15', 0)
+2023-08-25 15:31:06,863 - ERROR - ('12:30', 0)
+2023-08-25 15:31:06,863 - ERROR - ('12:45', 0)
+2023-08-25 15:31:06,863 - ERROR - ('13:00', 0)
+2023-08-25 15:31:06,863 - ERROR - ('13:15', 0)
+2023-08-25 15:31:06,863 - ERROR - ('13:30', 0)
+2023-08-25 15:31:06,864 - ERROR - ('13:45', 0)
+2023-08-25 15:31:06,864 - ERROR - ('14:00', 0)
+2023-08-25 15:31:06,864 - ERROR - ('14:15', 0)
+2023-08-25 15:31:06,864 - ERROR - ('14:30', 0)
+2023-08-25 15:31:06,864 - ERROR - ('14:45', 0)
+2023-08-25 15:31:06,864 - ERROR - ('15:00', 0)
+2023-08-25 15:31:06,864 - ERROR - ('15:15', 0)
+2023-08-25 15:31:06,864 - ERROR - ('15:30', 0)
+2023-08-25 15:31:06,865 - ERROR - ('15:45', 0)
+2023-08-25 15:31:06,865 - ERROR - ('16:00', 0)
+2023-08-25 15:31:06,865 - ERROR - ('16:15', 0)
+2023-08-25 15:31:06,865 - ERROR - ('16:30', 0)
+2023-08-25 15:31:06,865 - ERROR - ('16:45', 0)
+2023-08-25 15:31:06,865 - ERROR - ('17:00', 0)
+2023-08-25 15:31:06,865 - ERROR - ('17:15', 0)
+2023-08-25 15:31:06,866 - ERROR - ('17:30', 0)
+2023-08-25 15:31:06,866 - ERROR - ('17:45', 0)
+2023-08-25 15:38:59,348 - ERROR - ('9:00', 0)
+2023-08-25 15:38:59,348 - ERROR - ('9:15', 0)
+2023-08-25 15:38:59,348 - ERROR - ('9:30', 0)
+2023-08-25 15:38:59,349 - ERROR - ('9:45', 0)
+2023-08-25 15:38:59,349 - ERROR - ('10:00', 0)
+2023-08-25 15:38:59,349 - ERROR - ('10:15', 0)
+2023-08-25 15:38:59,349 - ERROR - ('10:30', 0)
+2023-08-25 15:38:59,349 - ERROR - ('10:45', 0)
+2023-08-25 15:38:59,349 - ERROR - ('11:00', 0)
+2023-08-25 15:38:59,349 - ERROR - ('11:15', 0)
+2023-08-25 15:38:59,350 - ERROR - ('11:30', 0)
+2023-08-25 15:38:59,350 - ERROR - ('11:45', 0)
+2023-08-25 15:38:59,350 - ERROR - ('12:00', 0)
+2023-08-25 15:38:59,350 - ERROR - ('12:15', 0)
+2023-08-25 15:38:59,350 - ERROR - ('12:30', 0)
+2023-08-25 15:38:59,350 - ERROR - ('12:45', 0)
+2023-08-25 15:38:59,351 - ERROR - ('13:00', 0)
+2023-08-25 15:38:59,351 - ERROR - ('13:15', 0)
+2023-08-25 15:38:59,351 - ERROR - ('13:30', 0)
+2023-08-25 15:38:59,351 - ERROR - ('13:45', 0)
+2023-08-25 15:38:59,351 - ERROR - ('14:00', 0)
+2023-08-25 15:38:59,351 - ERROR - ('14:15', 0)
+2023-08-25 15:38:59,351 - ERROR - ('14:30', 0)
+2023-08-25 15:38:59,351 - ERROR - ('14:45', 0)
+2023-08-25 15:38:59,351 - ERROR - ('15:00', 0)
+2023-08-25 15:38:59,352 - ERROR - ('15:15', 0)
+2023-08-25 15:38:59,352 - ERROR - ('15:30', 0)
+2023-08-25 15:38:59,352 - ERROR - ('15:45', 0)
+2023-08-25 15:38:59,352 - ERROR - ('16:00', 0)
+2023-08-25 15:38:59,352 - ERROR - ('16:15', 0)
+2023-08-25 15:38:59,352 - ERROR - ('16:30', 0)
+2023-08-25 15:38:59,352 - ERROR - ('16:45', 0)
+2023-08-25 15:38:59,352 - ERROR - ('17:00', 0)
+2023-08-25 15:38:59,352 - ERROR - ('17:15', 0)
+2023-08-25 15:38:59,352 - ERROR - ('17:30', 0)
+2023-08-25 15:38:59,353 - ERROR - ('17:45', 0)
+2023-08-25 15:39:01,444 - ERROR - ('9:00', 0)
+2023-08-25 15:39:01,444 - ERROR - ('9:15', 0)
+2023-08-25 15:39:01,444 - ERROR - ('9:30', 0)
+2023-08-25 15:39:01,445 - ERROR - ('9:45', 0)
+2023-08-25 15:39:01,445 - ERROR - ('10:00', 0)
+2023-08-25 15:39:01,445 - ERROR - ('10:15', 0)
+2023-08-25 15:39:01,445 - ERROR - ('10:30', 0)
+2023-08-25 15:39:01,445 - ERROR - ('10:45', 0)
+2023-08-25 15:39:01,445 - ERROR - ('11:00', 0)
+2023-08-25 15:39:01,445 - ERROR - ('11:15', 0)
+2023-08-25 15:39:01,445 - ERROR - ('11:30', 0)
+2023-08-25 15:39:01,445 - ERROR - ('11:45', 0)
+2023-08-25 15:39:01,446 - ERROR - ('12:00', 0)
+2023-08-25 15:39:01,446 - ERROR - ('12:15', 0)
+2023-08-25 15:39:01,446 - ERROR - ('12:30', 0)
+2023-08-25 15:39:01,446 - ERROR - ('12:45', 0)
+2023-08-25 15:39:01,446 - ERROR - ('13:00', 0)
+2023-08-25 15:39:01,446 - ERROR - ('13:15', 0)
+2023-08-25 15:39:01,446 - ERROR - ('13:30', 0)
+2023-08-25 15:39:01,446 - ERROR - ('13:45', 0)
+2023-08-25 15:39:01,447 - ERROR - ('14:00', 0)
+2023-08-25 15:39:01,447 - ERROR - ('14:15', 0)
+2023-08-25 15:39:01,447 - ERROR - ('14:30', 0)
+2023-08-25 15:39:01,447 - ERROR - ('14:45', 0)
+2023-08-25 15:39:01,447 - ERROR - ('15:00', 0)
+2023-08-25 15:39:01,447 - ERROR - ('15:15', 0)
+2023-08-25 15:39:01,447 - ERROR - ('15:30', 0)
+2023-08-25 15:39:01,447 - ERROR - ('15:45', 0)
+2023-08-25 15:39:01,448 - ERROR - ('16:00', 0)
+2023-08-25 15:39:01,448 - ERROR - ('16:15', 0)
+2023-08-25 15:39:01,448 - ERROR - ('16:30', 0)
+2023-08-25 15:39:01,448 - ERROR - ('16:45', 0)
+2023-08-25 15:39:01,448 - ERROR - ('17:00', 0)
+2023-08-25 15:39:01,448 - ERROR - ('17:15', 0)
+2023-08-25 15:39:01,448 - ERROR - ('17:30', 0)
+2023-08-25 15:39:01,448 - ERROR - ('17:45', 0)
+2023-08-25 15:43:40,608 - ERROR - ('9:00', 0)
+2023-08-25 15:43:40,608 - ERROR - ('9:15', 0)
+2023-08-25 15:43:40,608 - ERROR - ('9:30', 0)
+2023-08-25 15:43:40,608 - ERROR - ('9:45', 0)
+2023-08-25 15:43:40,608 - ERROR - ('10:00', 0)
+2023-08-25 15:43:40,608 - ERROR - ('10:15', 0)
+2023-08-25 15:43:40,608 - ERROR - ('10:30', 0)
+2023-08-25 15:43:40,609 - ERROR - ('10:45', 0)
+2023-08-25 15:43:40,609 - ERROR - ('11:00', 0)
+2023-08-25 15:43:40,609 - ERROR - ('11:15', 0)
+2023-08-25 15:43:40,609 - ERROR - ('11:30', 0)
+2023-08-25 15:43:40,609 - ERROR - ('11:45', 0)
+2023-08-25 15:43:40,609 - ERROR - ('12:00', 0)
+2023-08-25 15:43:40,609 - ERROR - ('12:15', 0)
+2023-08-25 15:43:40,609 - ERROR - ('12:30', 0)
+2023-08-25 15:43:40,609 - ERROR - ('12:45', 0)
+2023-08-25 15:43:40,609 - ERROR - ('13:00', 0)
+2023-08-25 15:43:40,609 - ERROR - ('13:15', 0)
+2023-08-25 15:43:40,610 - ERROR - ('13:30', 0)
+2023-08-25 15:43:40,610 - ERROR - ('13:45', 0)
+2023-08-25 15:43:40,610 - ERROR - ('14:00', 0)
+2023-08-25 15:43:40,610 - ERROR - ('14:15', 0)
+2023-08-25 15:43:40,610 - ERROR - ('14:30', 0)
+2023-08-25 15:43:40,610 - ERROR - ('14:45', 0)
+2023-08-25 15:43:40,610 - ERROR - ('15:00', 0)
+2023-08-25 15:43:40,610 - ERROR - ('15:15', 0)
+2023-08-25 15:43:40,610 - ERROR - ('15:30', 0)
+2023-08-25 15:43:40,610 - ERROR - ('15:45', 0)
+2023-08-25 15:43:40,610 - ERROR - ('16:00', 0)
+2023-08-25 15:43:40,610 - ERROR - ('16:15', 0)
+2023-08-25 15:43:40,611 - ERROR - ('16:30', 0)
+2023-08-25 15:43:40,611 - ERROR - ('16:45', 0)
+2023-08-25 15:43:40,611 - ERROR - ('17:00', 0)
+2023-08-25 15:43:40,611 - ERROR - ('17:15', 0)
+2023-08-25 15:43:40,611 - ERROR - ('17:30', 0)
+2023-08-25 15:43:40,611 - ERROR - ('17:45', 0)
+2023-08-25 15:44:28,468 - ERROR - ('9:00', 0)
+2023-08-25 15:44:28,468 - ERROR - ('9:15', 0)
+2023-08-25 15:44:28,468 - ERROR - ('9:30', 0)
+2023-08-25 15:44:28,468 - ERROR - ('9:45', 0)
+2023-08-25 15:44:28,469 - ERROR - ('10:00', 0)
+2023-08-25 15:44:28,469 - ERROR - ('10:15', 0)
+2023-08-25 15:44:28,469 - ERROR - ('10:30', 0)
+2023-08-25 15:44:28,469 - ERROR - ('10:45', 0)
+2023-08-25 15:44:28,469 - ERROR - ('11:00', 0)
+2023-08-25 15:44:28,469 - ERROR - ('11:15', 0)
+2023-08-25 15:44:28,469 - ERROR - ('11:30', 0)
+2023-08-25 15:44:28,469 - ERROR - ('11:45', 0)
+2023-08-25 15:44:28,469 - ERROR - ('12:00', 0)
+2023-08-25 15:44:28,469 - ERROR - ('12:15', 0)
+2023-08-25 15:44:28,470 - ERROR - ('12:30', 0)
+2023-08-25 15:44:28,470 - ERROR - ('12:45', 0)
+2023-08-25 15:44:28,470 - ERROR - ('13:00', 0)
+2023-08-25 15:44:28,470 - ERROR - ('13:15', 0)
+2023-08-25 15:44:28,470 - ERROR - ('13:30', 0)
+2023-08-25 15:44:28,470 - ERROR - ('13:45', 0)
+2023-08-25 15:44:28,470 - ERROR - ('14:00', 0)
+2023-08-25 15:44:28,470 - ERROR - ('14:15', 0)
+2023-08-25 15:44:28,470 - ERROR - ('14:30', 0)
+2023-08-25 15:44:28,470 - ERROR - ('14:45', 0)
+2023-08-25 15:44:28,470 - ERROR - ('15:00', 0)
+2023-08-25 15:44:28,470 - ERROR - ('15:15', 0)
+2023-08-25 15:44:28,471 - ERROR - ('15:30', 0)
+2023-08-25 15:44:28,471 - ERROR - ('15:45', 0)
+2023-08-25 15:44:28,471 - ERROR - ('16:00', 0)
+2023-08-25 15:44:28,471 - ERROR - ('16:15', 0)
+2023-08-25 15:44:28,471 - ERROR - ('16:30', 0)
+2023-08-25 15:44:28,471 - ERROR - ('16:45', 0)
+2023-08-25 15:44:28,471 - ERROR - ('17:00', 0)
+2023-08-25 15:44:28,471 - ERROR - ('17:15', 0)
+2023-08-25 15:44:28,471 - ERROR - ('17:30', 0)
+2023-08-25 15:44:28,471 - ERROR - ('17:45', 0)
+2023-08-25 15:46:29,495 - ERROR - ('9:00', 0)
+2023-08-25 15:46:29,495 - ERROR - ('9:15', 0)
+2023-08-25 15:46:29,496 - ERROR - ('9:30', 0)
+2023-08-25 15:46:29,496 - ERROR - ('9:45', 0)
+2023-08-25 15:46:29,496 - ERROR - ('10:00', 0)
+2023-08-25 15:46:29,496 - ERROR - ('10:15', 0)
+2023-08-25 15:46:29,496 - ERROR - ('10:30', 0)
+2023-08-25 15:46:29,496 - ERROR - ('10:45', 0)
+2023-08-25 15:46:29,496 - ERROR - ('11:00', 0)
+2023-08-25 15:46:29,496 - ERROR - ('11:15', 0)
+2023-08-25 15:46:29,496 - ERROR - ('11:30', 0)
+2023-08-25 15:46:29,496 - ERROR - ('11:45', 0)
+2023-08-25 15:46:29,496 - ERROR - ('12:00', 0)
+2023-08-25 15:46:29,496 - ERROR - ('12:15', 0)
+2023-08-25 15:46:29,497 - ERROR - ('12:30', 0)
+2023-08-25 15:46:29,497 - ERROR - ('12:45', 0)
+2023-08-25 15:46:29,497 - ERROR - ('13:00', 0)
+2023-08-25 15:46:29,497 - ERROR - ('13:15', 0)
+2023-08-25 15:46:29,497 - ERROR - ('13:30', 0)
+2023-08-25 15:46:29,497 - ERROR - ('13:45', 0)
+2023-08-25 15:46:29,497 - ERROR - ('14:00', 0)
+2023-08-25 15:46:29,497 - ERROR - ('14:15', 0)
+2023-08-25 15:46:29,497 - ERROR - ('14:30', 0)
+2023-08-25 15:46:29,497 - ERROR - ('14:45', 0)
+2023-08-25 15:46:29,497 - ERROR - ('15:00', 0)
+2023-08-25 15:46:29,497 - ERROR - ('15:15', 0)
+2023-08-25 15:46:29,498 - ERROR - ('15:30', 0)
+2023-08-25 15:46:29,498 - ERROR - ('15:45', 0)
+2023-08-25 15:46:29,498 - ERROR - ('16:00', 0)
+2023-08-25 15:46:29,498 - ERROR - ('16:15', 0)
+2023-08-25 15:46:29,498 - ERROR - ('16:30', 0)
+2023-08-25 15:46:29,498 - ERROR - ('16:45', 0)
+2023-08-25 15:46:29,498 - ERROR - ('17:00', 0)
+2023-08-25 15:46:29,498 - ERROR - ('17:15', 0)
+2023-08-25 15:46:29,498 - ERROR - ('17:30', 0)
+2023-08-25 15:46:29,498 - ERROR - ('17:45', 0)
+2023-08-25 15:47:45,610 - ERROR - Aug 24 2023
+2023-08-25 15:47:45,651 - ERROR - Aug 30 2023
+2023-08-25 15:47:45,692 - ERROR - Aug 25 2023
+2023-08-25 15:47:45,832 - ERROR - Aug 29 2023
+2023-08-25 15:47:45,875 - ERROR - Aug 26 2023
+2023-08-25 15:47:45,921 - ERROR - Aug 28 2023
+2023-08-25 15:47:45,964 - ERROR - Aug 27 2023
+2023-08-25 15:53:08,533 - ERROR - ('9:00', 0)
+2023-08-25 15:53:08,533 - ERROR - ('9:15', 0)
+2023-08-25 15:53:08,533 - ERROR - ('9:30', 0)
+2023-08-25 15:53:08,533 - ERROR - ('9:45', 0)
+2023-08-25 15:53:08,533 - ERROR - ('10:00', 0)
+2023-08-25 15:53:08,533 - ERROR - ('10:15', 0)
+2023-08-25 15:53:08,534 - ERROR - ('10:30', 0)
+2023-08-25 15:53:08,534 - ERROR - ('10:45', 0)
+2023-08-25 15:53:08,534 - ERROR - ('11:00', 0)
+2023-08-25 15:53:08,534 - ERROR - ('11:15', 0)
+2023-08-25 15:53:08,534 - ERROR - ('11:30', 0)
+2023-08-25 15:53:08,534 - ERROR - ('11:45', 0)
+2023-08-25 15:53:08,534 - ERROR - ('12:00', 0)
+2023-08-25 15:53:08,534 - ERROR - ('12:15', 0)
+2023-08-25 15:53:08,534 - ERROR - ('12:30', 0)
+2023-08-25 15:53:08,534 - ERROR - ('12:45', 0)
+2023-08-25 15:53:08,534 - ERROR - ('13:00', 0)
+2023-08-25 15:53:08,534 - ERROR - ('13:15', 0)
+2023-08-25 15:53:08,535 - ERROR - ('13:30', 0)
+2023-08-25 15:53:08,535 - ERROR - ('13:45', 0)
+2023-08-25 15:53:08,535 - ERROR - ('14:00', 0)
+2023-08-25 15:53:08,535 - ERROR - ('14:15', 0)
+2023-08-25 15:53:08,535 - ERROR - ('14:30', 0)
+2023-08-25 15:53:08,535 - ERROR - ('14:45', 0)
+2023-08-25 15:53:08,535 - ERROR - ('15:00', 0)
+2023-08-25 15:53:08,535 - ERROR - ('15:15', 0)
+2023-08-25 15:53:08,535 - ERROR - ('15:30', 0)
+2023-08-25 15:53:08,535 - ERROR - ('15:45', 0)
+2023-08-25 15:53:08,535 - ERROR - ('16:00', 0)
+2023-08-25 15:53:08,535 - ERROR - ('16:15', 0)
+2023-08-25 15:53:08,535 - ERROR - ('16:30', 0)
+2023-08-25 15:53:08,536 - ERROR - ('16:45', 0)
+2023-08-25 15:53:08,536 - ERROR - ('17:00', 0)
+2023-08-25 15:53:08,536 - ERROR - ('17:15', 0)
+2023-08-25 15:53:08,536 - ERROR - ('17:30', 0)
+2023-08-25 15:53:08,536 - ERROR - ('17:45', 0)
+2023-08-25 15:54:29,149 - ERROR - Aug 24 2023
+2023-08-25 15:54:29,196 - ERROR - Aug 25 2023
+2023-08-25 15:54:29,644 - ERROR - Aug 26 2023
+2023-08-25 15:54:29,685 - ERROR - Aug 27 2023
+2023-08-25 15:54:29,726 - ERROR - Aug 30 2023
+2023-08-25 15:54:29,767 - ERROR - Aug 28 2023
+2023-08-25 15:54:29,809 - ERROR - Aug 29 2023
+2023-08-25 15:54:47,549 - ERROR - ('9:00', 0)
+2023-08-25 15:54:47,549 - ERROR - ('9:15', 0)
+2023-08-25 15:54:47,549 - ERROR - ('9:30', 0)
+2023-08-25 15:54:47,549 - ERROR - ('9:45', 0)
+2023-08-25 15:54:47,549 - ERROR - ('10:00', 0)
+2023-08-25 15:54:47,550 - ERROR - ('10:15', 0)
+2023-08-25 15:54:47,550 - ERROR - ('10:30', 0)
+2023-08-25 15:54:47,550 - ERROR - ('10:45', 0)
+2023-08-25 15:54:47,550 - ERROR - ('11:00', 0)
+2023-08-25 15:54:47,550 - ERROR - ('11:15', 0)
+2023-08-25 15:54:47,550 - ERROR - ('11:30', 0)
+2023-08-25 15:54:47,550 - ERROR - ('11:45', 0)
+2023-08-25 15:54:47,550 - ERROR - ('12:00', 0)
+2023-08-25 15:54:47,550 - ERROR - ('12:15', 0)
+2023-08-25 15:54:47,551 - ERROR - ('12:30', 0)
+2023-08-25 15:54:47,551 - ERROR - ('12:45', 0)
+2023-08-25 15:54:47,551 - ERROR - ('13:00', 0)
+2023-08-25 15:54:47,551 - ERROR - ('13:15', 0)
+2023-08-25 15:54:47,551 - ERROR - ('13:30', 0)
+2023-08-25 15:54:47,551 - ERROR - ('13:45', 0)
+2023-08-25 15:54:47,551 - ERROR - ('14:00', 0)
+2023-08-25 15:54:47,551 - ERROR - ('14:15', 0)
+2023-08-25 15:54:47,551 - ERROR - ('14:30', 0)
+2023-08-25 15:54:47,552 - ERROR - ('14:45', 0)
+2023-08-25 15:54:47,552 - ERROR - ('15:00', 0)
+2023-08-25 15:54:47,552 - ERROR - ('15:15', 0)
+2023-08-25 15:54:47,552 - ERROR - ('15:30', 0)
+2023-08-25 15:54:47,552 - ERROR - ('15:45', 0)
+2023-08-25 15:54:47,552 - ERROR - ('16:00', 0)
+2023-08-25 15:54:47,552 - ERROR - ('16:15', 0)
+2023-08-25 15:54:47,553 - ERROR - ('16:30', 0)
+2023-08-25 15:54:47,553 - ERROR - ('16:45', 0)
+2023-08-25 15:54:47,553 - ERROR - ('17:00', 0)
+2023-08-25 15:54:47,553 - ERROR - ('17:15', 0)
+2023-08-25 15:54:47,553 - ERROR - ('17:30', 0)
+2023-08-25 15:54:47,553 - ERROR - ('17:45', 0)
+2023-08-25 16:10:31,257 - ERROR - Exception on /api/sendavalible/ [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/admsrv/dev/golf_pay/app.py", line 283, in sendavalible
+    unavalible = get_unavailable_times(selected_date[4:15])
+NameError: name 'selected_date' is not defined
+2023-08-25 16:10:46,747 - ERROR - ('9:00', 0)
+2023-08-25 16:10:46,747 - ERROR - ('9:15', 0)
+2023-08-25 16:10:46,748 - ERROR - ('9:30', 0)
+2023-08-25 16:10:46,748 - ERROR - ('9:45', 0)
+2023-08-25 16:10:46,748 - ERROR - ('10:00', 0)
+2023-08-25 16:10:46,748 - ERROR - ('10:15', 0)
+2023-08-25 16:10:46,748 - ERROR - ('10:30', 0)
+2023-08-25 16:10:46,748 - ERROR - ('10:45', 0)
+2023-08-25 16:10:46,748 - ERROR - ('11:00', 0)
+2023-08-25 16:10:46,748 - ERROR - ('11:15', 0)
+2023-08-25 16:10:46,748 - ERROR - ('11:30', 0)
+2023-08-25 16:10:46,748 - ERROR - ('11:45', 0)
+2023-08-25 16:10:46,748 - ERROR - ('12:00', 0)
+2023-08-25 16:10:46,748 - ERROR - ('12:15', 0)
+2023-08-25 16:10:46,749 - ERROR - ('12:30', 0)
+2023-08-25 16:10:46,749 - ERROR - ('12:45', 0)
+2023-08-25 16:10:46,749 - ERROR - ('13:00', 0)
+2023-08-25 16:10:46,749 - ERROR - ('13:15', 0)
+2023-08-25 16:10:46,749 - ERROR - ('13:30', 0)
+2023-08-25 16:10:46,749 - ERROR - ('13:45', 0)
+2023-08-25 16:10:46,749 - ERROR - ('14:00', 0)
+2023-08-25 16:10:46,749 - ERROR - ('14:15', 0)
+2023-08-25 16:10:46,749 - ERROR - ('14:30', 0)
+2023-08-25 16:10:46,749 - ERROR - ('14:45', 0)
+2023-08-25 16:10:46,749 - ERROR - ('15:00', 0)
+2023-08-25 16:10:46,749 - ERROR - ('15:15', 0)
+2023-08-25 16:10:46,750 - ERROR - ('15:30', 0)
+2023-08-25 16:10:46,750 - ERROR - ('15:45', 0)
+2023-08-25 16:10:46,750 - ERROR - ('16:00', 0)
+2023-08-25 16:10:46,750 - ERROR - ('16:15', 0)
+2023-08-25 16:10:46,750 - ERROR - ('16:30', 0)
+2023-08-25 16:10:46,750 - ERROR - ('16:45', 0)
+2023-08-25 16:10:46,750 - ERROR - ('17:00', 0)
+2023-08-25 16:10:46,750 - ERROR - ('17:15', 0)
+2023-08-25 16:10:46,750 - ERROR - ('17:30', 0)
+2023-08-25 16:10:46,750 - ERROR - ('17:45', 0)
+2023-08-25 16:15:10,972 - DEBUG - getttttttttt
+2023-08-25 16:15:10,972 - DEBUG - f
+2023-08-25 16:15:11,074 - ERROR - Exception on /api/getbook/ [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.10/dist-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/admsrv/dev/golf_pay/app.py", line 391, in getbook
+    cur.execute('INSERT INTO test (date, time, p_name, p_phone, p_email, is_member, count, guest1, guest2, guest3, is_car, is_eltel, is_tel, is_bag, comm, price, id_time)'
+psycopg2.errors.NotNullViolation: null value in column "p_name" of relation "test" violates not-null constraint
+DETAIL:  Failing row contains (160, , null, null, null, f, 1, null, null, null, null, null, null, null, null, 5200, null, null).
+
